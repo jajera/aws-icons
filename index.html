@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AWS Icons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1>AWS Icons</h1>
+        <div class="header-actions">
+            <a href="https://github.com/jajera/aws-icons" class="github-button" aria-label="View on GitHub"
+                target="_blank" rel="noopener noreferrer">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+            </a>
+            <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+                <span class="dark-mode-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <label for="search" class="sr-only">Search</label>
+        <input id="search" type="text" placeholder="Search name or tag" class="search-input">
+
+        <div class="tags-section">
+            <div class="tags-header">
+                <button id="tagsToggle" class="tags-toggle" aria-label="Toggle tags filter">
+                    <span id="tagsToggleText">Show Tags</span>
+                    <span id="tagsToggleIcon">▼</span>
+                </button>
+                <div id="activeTags" class="active-tags"></div>
+            </div>
+            <div id="tags" class="tags tags-collapsed"></div>
+        </div>
+
+        <div id="grid" class="grid"></div>
+
+        <p class="note">
+            Icons are provided by <a href="https://aws.amazon.com/architecture/icons/" target="_blank"
+                rel="noopener noreferrer">AWS Architecture Icons</a>.
+            Use per <a href="https://aws.amazon.com/trademark-guidelines/" target="_blank" rel="noopener noreferrer">AWS
+                Trademark Guidelines</a>.
+        </p>
+    </main>
+
+    <script>
+        const state = { q: "", tags: new Set(), data: [] };
+
+        // Dark mode initialization
+        function initDarkMode() {
+            const saved = localStorage.getItem("darkMode");
+            const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            const isDark = saved !== null ? saved === "true" : systemPrefersDark;
+
+            const html = document.documentElement;
+            if (isDark) {
+                html.classList.add("dark");
+                html.classList.remove("light-mode");
+            } else {
+                html.classList.remove("dark");
+                html.classList.add("light-mode");
+            }
+            updateDarkModeIcon(isDark);
+        }
+
+        function updateDarkModeIcon(isDark) {
+            const icon = document.getElementById("darkModeToggle")?.querySelector(".dark-mode-icon");
+            if (icon) {
+                icon.textContent = isDark ? "☀️" : "🌙";
+            }
+        }
+
+        function toggleDarkMode() {
+            const html = document.documentElement;
+            const isDark = html.classList.toggle("dark");
+            if (isDark) {
+                html.classList.remove("light-mode");
+            } else {
+                html.classList.add("light-mode");
+            }
+            localStorage.setItem("darkMode", isDark.toString());
+            updateDarkModeIcon(isDark);
+        }
+
+        // URL parameter handling
+        function getParams() {
+            const u = new URL(location.href);
+            const q = u.searchParams.get("q") || "";
+            const tags = (u.searchParams.get("tags") || "").split(",").filter(Boolean);
+            return { q, tags };
+        }
+
+        function setParams() {
+            const u = new URL(location.href);
+            const tags = [...state.tags].join(",");
+            if (state.q) u.searchParams.set("q", state.q);
+            else u.searchParams.delete("q");
+            if (tags) u.searchParams.set("tags", tags);
+            else u.searchParams.delete("tags");
+            history.replaceState(null, "", u);
+        }
+
+        // Tag rendering
+        function renderTags() {
+            const all = new Set();
+            state.data.forEach(i => {
+                if (i.tags) {
+                    i.tags.forEach(t => all.add(t));
+                }
+            });
+            const wrap = document.getElementById("tags");
+            const activeWrap = document.getElementById("activeTags");
+            wrap.innerHTML = "";
+            activeWrap.innerHTML = "";
+
+            // Show active tags separately
+            if (state.tags.size > 0) {
+                [...state.tags].sort().forEach(t => {
+                    const b = document.createElement("button");
+                    b.textContent = t;
+                    b.className = "chip chip_on chip-active";
+                    b.onclick = () => {
+                        state.tags.delete(t);
+                        setParams();
+                        render();
+                        renderTags();
+                    };
+                    activeWrap.appendChild(b);
+                });
+            }
+
+            // Show all tags
+            [...all].sort().forEach(t => {
+                const b = document.createElement("button");
+                b.textContent = t;
+                b.className = state.tags.has(t) ? "chip chip_on" : "chip";
+                b.onclick = () => {
+                    if (state.tags.has(t)) state.tags.delete(t);
+                    else state.tags.add(t);
+                    setParams();
+                    render();
+                    renderTags();
+                };
+                wrap.appendChild(b);
+            });
+        }
+
+        // Filter matching
+        function matches(i) {
+            const q = state.q.toLowerCase();
+            const nameHit = i.name.toLowerCase().includes(q);
+            const tagHit = i.tags && i.tags.some(t => t.toLowerCase().includes(q));
+            const tagsOk = state.tags.size === 0 || [...state.tags].every(t => i.tags && i.tags.includes(t));
+            return (q ? (nameHit || tagHit) : true) && tagsOk;
+        }
+
+        // SVG to PNG conversion
+        async function svgToPng(svgPath, width = 512, height = 512) {
+            const svgText = await fetch(svgPath).then(r => r.text());
+            const parser = new DOMParser();
+            const svgDoc = parser.parseFromString(svgText, "image/svg+xml");
+            const svgElement = svgDoc.documentElement;
+
+            // Get viewBox or use provided dimensions
+            const viewBox = svgElement.getAttribute("viewBox");
+            if (viewBox) {
+                const [, , vbWidth, vbHeight] = viewBox.split(" ").map(Number);
+                width = vbWidth;
+                height = vbHeight;
+            } else {
+                width = Number(svgElement.getAttribute("width")) || width;
+                height = Number(svgElement.getAttribute("height")) || height;
+            }
+
+            const img = new Image();
+            const svgBlob = new Blob([svgText], { type: "image/svg+xml" });
+            const url = URL.createObjectURL(svgBlob);
+
+            return new Promise((resolve, reject) => {
+                img.onload = () => {
+                    const canvas = document.createElement("canvas");
+                    canvas.width = width;
+                    canvas.height = height;
+                    const ctx = canvas.getContext("2d");
+                    ctx.drawImage(img, 0, 0, width, height);
+                    canvas.toBlob(resolve, "image/png");
+                    URL.revokeObjectURL(url);
+                };
+                img.onerror = reject;
+                img.src = url;
+            });
+        }
+
+        // Copy SVG
+        async function copySvg(icon, button) {
+            try {
+                const svg = await fetch(icon.path).then(r => r.text());
+                await navigator.clipboard.writeText(svg);
+                const old = button.textContent;
+                button.textContent = "Copied";
+                setTimeout(() => button.textContent = old, 1000);
+            } catch (err) {
+                console.error("Failed to copy SVG:", err);
+            }
+        }
+
+        // Copy PNG
+        async function copyPng(icon, button) {
+            try {
+                const blob = await svgToPng(icon.path);
+                await navigator.clipboard.write([
+                    new ClipboardItem({ "image/png": blob })
+                ]);
+                const old = button.textContent;
+                button.textContent = "Copied";
+                setTimeout(() => button.textContent = old, 1000);
+            } catch (err) {
+                console.error("Failed to copy PNG:", err);
+            }
+        }
+
+        // Download SVG
+        async function downloadSvg(icon) {
+            try {
+                const svg = await fetch(icon.path).then(r => r.text());
+                const blob = new Blob([svg], { type: "image/svg+xml" });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement("a");
+                a.href = url;
+                a.download = icon.path.split("/").pop();
+                a.click();
+                URL.revokeObjectURL(url);
+            } catch (err) {
+                console.error("Failed to download SVG:", err);
+            }
+        }
+
+        // Download PNG
+        async function downloadPng(icon) {
+            try {
+                const blob = await svgToPng(icon.path);
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement("a");
+                a.href = url;
+                a.download = icon.path.split("/").pop().replace(".svg", ".png");
+                a.click();
+                URL.revokeObjectURL(url);
+            } catch (err) {
+                console.error("Failed to download PNG:", err);
+            }
+        }
+
+        // Render icons
+        function render() {
+            const grid = document.getElementById("grid");
+            grid.innerHTML = "";
+            const frag = document.createDocumentFragment();
+
+            state.data.filter(matches).forEach(icon => {
+                const card = document.createElement("div");
+                card.className = "card";
+
+                const iconColor = icon.color || "#527FFF";
+                const iconBg = `background-color: ${iconColor};`;
+
+                const description = icon.description || `${icon.name} is an AWS service.`;
+                card.innerHTML = `
+          <div class="icon-container" style="${iconBg}">
+            <img src="${icon.path}" alt="${icon.name}" class="icon-image">
+            <div class="card-actions">
+              <button class="action-btn copy-svg" aria-label="Copy SVG" title="Copy SVG">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                </svg>
+              </button>
+              <button class="action-btn copy-png" aria-label="Copy PNG" title="Copy PNG">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"/>
+                </svg>
+              </button>
+              <button class="action-btn download-svg" aria-label="Download SVG" title="Download SVG">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                </svg>
+              </button>
+              <button class="action-btn download-png" aria-label="Download PNG" title="Download PNG">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                </svg>
+              </button>
+            </div>
+            <div class="icon-tooltip">
+              <div class="tooltip-title">${icon.name}</div>
+              <div class="tooltip-description">${description}</div>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="name">${icon.name}</div>
+          </div>
+        `;
+
+                const copySvgBtn = card.querySelector(".copy-svg");
+                const copyPngBtn = card.querySelector(".copy-png");
+                const downloadSvgBtn = card.querySelector(".download-svg");
+                const downloadPngBtn = card.querySelector(".download-png");
+
+                copySvgBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    copySvg(icon, copySvgBtn);
+                };
+                copyPngBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    copyPng(icon, copyPngBtn);
+                };
+                downloadSvgBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    downloadSvg(icon);
+                };
+                downloadPngBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    downloadPng(icon);
+                };
+
+                frag.appendChild(card);
+            });
+
+            grid.appendChild(frag);
+        }
+
+        // Tags toggle
+        function initTagsToggle() {
+            const toggle = document.getElementById("tagsToggle");
+            const tagsContainer = document.getElementById("tags");
+            const toggleText = document.getElementById("tagsToggleText");
+            const toggleIcon = document.getElementById("tagsToggleIcon");
+
+            toggle.onclick = () => {
+                tagsContainer.classList.toggle("tags-collapsed");
+                const isCollapsed = tagsContainer.classList.contains("tags-collapsed");
+                toggleText.textContent = isCollapsed ? "Show Tags" : "Hide Tags";
+                toggleIcon.textContent = isCollapsed ? "▼" : "▲";
+            };
+        }
+
+        // Initialize
+        async function init() {
+            initDarkMode();
+            initTagsToggle();
+
+            document.getElementById("darkModeToggle").onclick = toggleDarkMode;
+
+            const p = getParams();
+            state.q = p.q;
+            state.tags = new Set(p.tags);
+            document.getElementById("search").value = state.q;
+
+            state.data = await fetch("icons.json").then(r => r.json());
+
+            renderTags();
+            render();
+        }
+
+        document.getElementById("search").addEventListener("input", e => {
+            state.q = e.target.value;
+            setParams();
+            render();
+        });
+
+        init();
+    </script>
+</body>
+
+</html>

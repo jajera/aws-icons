@@ -1,0 +1,4402 @@
+[
+  {
+    "name": "Amazon Augmented Ai A2i",
+    "path": "icons/ai/Arch_Amazon-Augmented-AI-A2I_64.svg",
+    "tags": [
+      "a2i",
+      "ai",
+      "amazon",
+      "augmented"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Augmented AI (A2I) provides human review workflows for machine learning predictions, enabling you to build confidence in your ML models by adding human judgment."
+  },
+  {
+    "name": "Amazon Bedrock",
+    "path": "icons/ai/Arch_Amazon-Bedrock_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "bedrock",
+      "serverless"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Bedrock is a fully managed service that makes foundation models from leading AI companies available through an API, enabling you to build and scale generative AI applications."
+  },
+  {
+    "name": "Amazon Codeguru",
+    "path": "icons/ai/Arch_Amazon-CodeGuru_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "codeguru"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon CodeGuru is a developer tool that provides intelligent recommendations for improving code quality and identifying expensive lines of code in your applications."
+  },
+  {
+    "name": "Amazon Codewhisperer",
+    "path": "icons/ai/Arch_Amazon-CodeWhisperer_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "codewhisperer"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon CodeWhisperer is an AI-powered coding companion that generates code suggestions in real-time based on your comments and existing code."
+  },
+  {
+    "name": "Amazon Comprehend",
+    "path": "icons/ai/Arch_Amazon-Comprehend_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "comprehend",
+      "serverless"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text."
+  },
+  {
+    "name": "Amazon Comprehend Medical",
+    "path": "icons/ai/Arch_Amazon-Comprehend-Medical_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "comprehend",
+      "medical",
+      "serverless"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Comprehend Medical is a HIPAA-eligible natural language processing service that uses machine learning to extract health data from medical text."
+  },
+  {
+    "name": "Amazon Devops Guru",
+    "path": "icons/ai/Arch_Amazon-DevOps-Guru_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "devops",
+      "guru"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon DevOps Guru is a machine learning-powered service that helps you improve application availability by detecting operational issues and recommending fixes."
+  },
+  {
+    "name": "Amazon Elastic Inference",
+    "path": "icons/ai/Arch_Amazon-Elastic-Inference_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "elastic",
+      "inference"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Elastic Inference allows you to attach low-cost GPU-powered acceleration to Amazon EC2 and Amazon ECS instances to reduce the cost of running deep learning inference."
+  },
+  {
+    "name": "Amazon Forecast",
+    "path": "icons/ai/Arch_Amazon-Forecast_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "forecast"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Forecast is a fully managed service that uses machine learning to deliver highly accurate forecasts based on your time-series data."
+  },
+  {
+    "name": "Amazon Fraud Detector",
+    "path": "icons/ai/Arch_Amazon-Fraud-Detector_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "detector",
+      "fraud"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Fraud Detector is a fully managed service that uses machine learning and 20+ years of Amazon fraud detection expertise to identify potentially fraudulent online activities."
+  },
+  {
+    "name": "Amazon Kendra",
+    "path": "icons/ai/Arch_Amazon-Kendra_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "kendra"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Kendra is an intelligent search service powered by machine learning that enables organizations to provide relevant information to customers and employees."
+  },
+  {
+    "name": "Amazon Lex",
+    "path": "icons/ai/Arch_Amazon-Lex_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "lex",
+      "serverless"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Lex is a service for building conversational interfaces into any application using voice and text, powered by the same deep learning technologies as Alexa."
+  },
+  {
+    "name": "Amazon Lookout For Equipment",
+    "path": "icons/ai/Arch_Amazon-Lookout-for-Equipment_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "equipment",
+      "for",
+      "lookout"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Lookout for Equipment uses machine learning to analyze sensor data and identify abnormal equipment behavior, enabling predictive maintenance."
+  },
+  {
+    "name": "Amazon Lookout For Metrics",
+    "path": "icons/ai/Arch_Amazon-Lookout-for-Metrics_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "for",
+      "lookout",
+      "metrics"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Lookout for Metrics uses machine learning to automatically detect and diagnose anomalies in business and operational data."
+  },
+  {
+    "name": "Amazon Lookout For Vision",
+    "path": "icons/ai/Arch_Amazon-Lookout-for-Vision_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "for",
+      "lookout",
+      "vision"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Lookout for Vision uses computer vision to spot defects and anomalies in industrial products using images as input."
+  },
+  {
+    "name": "Amazon Monitron",
+    "path": "icons/ai/Arch_Amazon-Monitron_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "monitron"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Monitron is an end-to-end system that uses machine learning to detect abnormal equipment behavior, enabling predictive maintenance."
+  },
+  {
+    "name": "Amazon Nova",
+    "path": "icons/ai/Arch_Amazon-Nova_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "nova"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Nova is a generative AI service that helps developers build applications with natural language understanding capabilities."
+  },
+  {
+    "name": "Amazon Personalize",
+    "path": "icons/ai/Arch_Amazon-Personalize_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "personalize"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Personalize is a machine learning service that makes it easy for developers to create individualized recommendations for customers using their applications."
+  },
+  {
+    "name": "Amazon Polly",
+    "path": "icons/ai/Arch_Amazon-Polly_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "polly",
+      "serverless"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Polly is a service that turns text into lifelike speech, allowing you to create applications that talk and build entirely new categories of speech-enabled products."
+  },
+  {
+    "name": "Amazon Q",
+    "path": "icons/ai/Arch_Amazon-Q_64.svg",
+    "tags": [
+      "ai",
+      "amazon"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Q is an AI-powered assistant that helps developers and IT professionals understand, build, and operate applications on AWS."
+  },
+  {
+    "name": "Amazon Rekognition",
+    "path": "icons/ai/Arch_Amazon-Rekognition_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "rekognition",
+      "serverless"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Rekognition offers pre-trained and customizable computer vision capabilities to extract information and insights from your images and videos."
+  },
+  {
+    "name": "Amazon Sagemaker Ai",
+    "path": "icons/ai/Arch_Amazon-SageMaker-AI_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "sagemaker"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon SageMaker AI is a fully managed machine learning service that enables data scientists and developers to build, train, and deploy ML models at scale."
+  },
+  {
+    "name": "Amazon Sagemaker Ground Truth",
+    "path": "icons/ai/Arch_Amazon-SageMaker-Ground-Truth_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "ground",
+      "sagemaker",
+      "truth"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon SageMaker Ground Truth helps you build highly accurate training datasets for machine learning by providing data labeling workflows."
+  },
+  {
+    "name": "Amazon Sagemaker Studio Lab",
+    "path": "icons/ai/Arch_Amazon-SageMaker-Studio-Lab_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "lab",
+      "sagemaker",
+      "studio"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon SageMaker Studio Lab is a free machine learning development environment that provides compute and storage for learning ML."
+  },
+  {
+    "name": "Amazon Textract",
+    "path": "icons/ai/Arch_Amazon-Textract_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "serverless",
+      "textract"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Textract automatically extracts text, handwriting, and data from scanned documents using machine learning."
+  },
+  {
+    "name": "Amazon Transcribe",
+    "path": "icons/ai/Arch_Amazon-Transcribe_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "serverless",
+      "transcribe"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Transcribe automatically converts speech to text, making it easy to add speech-to-text capabilities to your applications."
+  },
+  {
+    "name": "Amazon Translate",
+    "path": "icons/ai/Arch_Amazon-Translate_64.svg",
+    "tags": [
+      "ai",
+      "amazon",
+      "serverless",
+      "translate"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Amazon Translate is a neural machine translation service that delivers fast, high-quality, and affordable language translation."
+  },
+  {
+    "name": "Apache Mxnet On Aws",
+    "path": "icons/ai/Arch_Apache-MXNet-on-AWS_64.svg",
+    "tags": [
+      "ai",
+      "apache",
+      "aws",
+      "mxnet"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "Apache MXNet on AWS is a deep learning framework optimized for efficiency and flexibility, enabling you to build and deploy neural networks."
+  },
+  {
+    "name": "Aws App Studio",
+    "path": "icons/ai/Arch_AWS-App-Studio_64.svg",
+    "tags": [
+      "ai",
+      "app",
+      "aws",
+      "studio"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "AWS App Studio is an AI-powered service that enables you to create enterprise applications using natural language descriptions."
+  },
+  {
+    "name": "Aws Deep Learning Amis",
+    "path": "icons/ai/Arch_AWS-Deep-Learning-AMIs_64.svg",
+    "tags": [
+      "ai",
+      "amis",
+      "aws",
+      "deep",
+      "learning"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "AWS Deep Learning AMIs provide pre-configured environments for deep learning frameworks like TensorFlow, PyTorch, and Apache MXNet."
+  },
+  {
+    "name": "Aws Deep Learning Containers",
+    "path": "icons/ai/Arch_AWS-Deep-Learning-Containers_64.svg",
+    "tags": [
+      "ai",
+      "aws",
+      "containers",
+      "deep",
+      "learning"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "AWS Deep Learning Containers provide pre-built Docker images optimized for deep learning, making it easy to deploy ML workloads."
+  },
+  {
+    "name": "Aws Deepcomposer",
+    "path": "icons/ai/Arch_AWS-DeepComposer_64.svg",
+    "tags": [
+      "ai",
+      "aws",
+      "deepcomposer"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "AWS DeepComposer is a machine learning-enabled musical keyboard that helps you learn generative AI and create original music."
+  },
+  {
+    "name": "Aws Deepracer",
+    "path": "icons/ai/Arch_AWS-DeepRacer_64.svg",
+    "tags": [
+      "ai",
+      "aws",
+      "deepracer"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "AWS DeepRacer is a 1/18th scale autonomous race car that helps you learn reinforcement learning through hands-on experimentation."
+  },
+  {
+    "name": "Aws Healthimaging",
+    "path": "icons/ai/Arch_AWS-HealthImaging_64.svg",
+    "tags": [
+      "ai",
+      "aws",
+      "healthimaging"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "AWS HealthImaging is a HIPAA-eligible service that helps healthcare providers store, transform, and analyze medical imaging data at scale."
+  },
+  {
+    "name": "Aws Healthlake",
+    "path": "icons/ai/Arch_AWS-HealthLake_64.svg",
+    "tags": [
+      "ai",
+      "aws",
+      "healthlake"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "AWS HealthLake is a HIPAA-eligible service that helps healthcare and life sciences organizations store, transform, query, and analyze health data."
+  },
+  {
+    "name": "Aws Healthomics",
+    "path": "icons/ai/Arch_AWS-HealthOmics_64.svg",
+    "tags": [
+      "ai",
+      "aws",
+      "healthomics"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "AWS HealthOmics is a purpose-built service that helps healthcare and life sciences organizations store, query, and analyze genomic, transcriptomic, and other omics data."
+  },
+  {
+    "name": "Aws Healthscribe",
+    "path": "icons/ai/Arch_AWS-HealthScribe_64.svg",
+    "tags": [
+      "ai",
+      "aws",
+      "healthscribe"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "AWS HealthScribe is a HIPAA-eligible service that uses generative AI to automatically create clinical documentation from patient-clinician conversations."
+  },
+  {
+    "name": "Aws Neuron",
+    "path": "icons/ai/Arch_AWS-Neuron_64.svg",
+    "tags": [
+      "ai",
+      "aws",
+      "neuron"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "AWS Neuron is a software development kit (SDK) that enables you to run machine learning inference workloads on AWS Inferentia and Trainium chips."
+  },
+  {
+    "name": "Aws Panorama",
+    "path": "icons/ai/Arch_AWS-Panorama_64.svg",
+    "tags": [
+      "ai",
+      "aws",
+      "panorama"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "AWS Panorama is a machine learning appliance and SDK that brings computer vision to on-premises cameras to make predictions locally."
+  },
+  {
+    "name": "Pytorch On Aws",
+    "path": "icons/ai/Arch_PyTorch-on-AWS_64.svg",
+    "tags": [
+      "ai",
+      "aws",
+      "pytorch"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "PyTorch on AWS provides optimized implementations of the PyTorch deep learning framework for high-performance training and inference."
+  },
+  {
+    "name": "Tensorflow On Aws",
+    "path": "icons/ai/Arch_TensorFlow-on-AWS_64.svg",
+    "tags": [
+      "ai",
+      "aws",
+      "tensorflow"
+    ],
+    "category": "ai",
+    "color": "#01A88D",
+    "description": "TensorFlow on AWS provides optimized implementations of the TensorFlow deep learning framework for scalable machine learning workloads."
+  },
+  {
+    "name": "Amazon Athena",
+    "path": "icons/analytics/Arch_Amazon-Athena_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "athena",
+      "serverless"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL."
+  },
+  {
+    "name": "Amazon Cloudsearch",
+    "path": "icons/analytics/Arch_Amazon-CloudSearch_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "cloudsearch"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon CloudSearch is a managed service in the AWS Cloud that makes it simple and cost-effective to set up, manage, and scale a search solution."
+  },
+  {
+    "name": "Amazon Data Firehose",
+    "path": "icons/analytics/Arch_Amazon-Data-Firehose_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "data",
+      "firehose"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon Kinesis Data Firehose is the easiest way to reliably load streaming data into data lakes, data stores, and analytics services."
+  },
+  {
+    "name": "Amazon Datazone",
+    "path": "icons/analytics/Arch_Amazon-DataZone_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "datazone"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon DataZone is a data management service that makes it faster and easier for customers to discover, access, share, and govern data stored across AWS, on-premises, and third-party sources."
+  },
+  {
+    "name": "Amazon Emr",
+    "path": "icons/analytics/Arch_Amazon-EMR_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "elastic map reduce",
+      "emr"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon EMR is a cloud big data platform for processing vast amounts of data using open source tools such as Apache Spark, Hive, HBase, Flink, and Presto."
+  },
+  {
+    "name": "Amazon Finspace",
+    "path": "icons/analytics/Arch_Amazon-FinSpace_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "finspace"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon FinSpace is a fully managed analytics service purpose-built for the financial services industry to help you analyze time-series data."
+  },
+  {
+    "name": "Amazon Kinesis",
+    "path": "icons/analytics/Arch_Amazon-Kinesis_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "kinesis",
+      "serverless"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information."
+  },
+  {
+    "name": "Amazon Kinesis Data Streams",
+    "path": "icons/analytics/Arch_Amazon-Kinesis-Data-Streams_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "data",
+      "kinesis",
+      "serverless",
+      "streams"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale."
+  },
+  {
+    "name": "Amazon Kinesis Video Streams",
+    "path": "icons/analytics/Arch_Amazon-Kinesis-Video-Streams_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "kinesis",
+      "serverless",
+      "streams",
+      "video"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon Kinesis Video Streams is a fully managed service that makes it easy to securely stream video from connected devices to AWS for real-time analytics and processing."
+  },
+  {
+    "name": "Amazon Managed Service For Apache Flink",
+    "path": "icons/analytics/Arch_Amazon-Managed-Service-for-Apache-Flink_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "apache",
+      "flink",
+      "for",
+      "managed",
+      "service"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon Managed Service for Apache Flink is a fully managed service for running Apache Flink applications, enabling you to process streaming data in real-time."
+  },
+  {
+    "name": "Amazon Managed Streaming For Apache Kafka",
+    "path": "icons/analytics/Arch_Amazon-Managed-Streaming-for-Apache-Kafka_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "apache",
+      "for",
+      "kafka",
+      "managed",
+      "streaming"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon Managed Streaming for Apache Kafka (MSK) is a fully managed service that makes it easy to build and run applications that use Apache Kafka to process streaming data."
+  },
+  {
+    "name": "Amazon Opensearch Service",
+    "path": "icons/analytics/Arch_Amazon-OpenSearch-Service_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "elasticsearch",
+      "opensearch",
+      "service"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon OpenSearch Service makes it easy to deploy, secure, operate, and scale OpenSearch for log analytics, application search, and more."
+  },
+  {
+    "name": "Amazon Quicksight",
+    "path": "icons/analytics/Arch_Amazon-QuickSight_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "quicksight"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence (BI) service built for the cloud."
+  },
+  {
+    "name": "Amazon Redshift",
+    "path": "icons/analytics/Arch_Amazon-Redshift_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "redshift"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse that makes it simple and cost-effective to analyze all your data using standard SQL."
+  },
+  {
+    "name": "Amazon Sagemaker",
+    "path": "icons/analytics/Arch_Amazon-SageMaker_64.svg",
+    "tags": [
+      "amazon",
+      "analytics",
+      "sagemaker"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "Amazon SageMaker is a fully managed machine learning service that enables data scientists and developers to build, train, and deploy ML models at scale."
+  },
+  {
+    "name": "Aws Clean Rooms",
+    "path": "icons/analytics/Arch_AWS-Clean-Rooms_64.svg",
+    "tags": [
+      "analytics",
+      "aws",
+      "clean",
+      "cleanrooms",
+      "rooms"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "AWS Clean Rooms helps you and your partners identify and analyze overlapping datasets without sharing or copying each other's underlying data."
+  },
+  {
+    "name": "Aws Data Exchange",
+    "path": "icons/analytics/Arch_AWS-Data-Exchange_64.svg",
+    "tags": [
+      "analytics",
+      "aws",
+      "data",
+      "exchange"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "AWS Data Exchange makes it easy to find, subscribe to, and use third-party data in the cloud."
+  },
+  {
+    "name": "Aws Entity Resolution",
+    "path": "icons/analytics/Arch_AWS-Entity-Resolution_64.svg",
+    "tags": [
+      "analytics",
+      "aws",
+      "entity",
+      "resolution"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "AWS Entity Resolution helps you match and link related records from multiple sources to create a unified view of entities."
+  },
+  {
+    "name": "Aws Glue",
+    "path": "icons/analytics/Arch_AWS-Glue_64.svg",
+    "tags": [
+      "analytics",
+      "aws",
+      "glue"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development."
+  },
+  {
+    "name": "Aws Glue Databrew",
+    "path": "icons/analytics/Arch_AWS-Glue-DataBrew_64.svg",
+    "tags": [
+      "analytics",
+      "aws",
+      "databrew",
+      "glue"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "AWS Glue DataBrew is a visual data preparation tool that makes it easy for data analysts and data scientists to clean and normalize data without writing code."
+  },
+  {
+    "name": "Aws Lake Formation",
+    "path": "icons/analytics/Arch_AWS-Lake-Formation_64.svg",
+    "tags": [
+      "analytics",
+      "aws",
+      "formation",
+      "lake"
+    ],
+    "category": "analytics",
+    "color": "#8C4FFF",
+    "description": "AWS Lake Formation makes it easy to set up a secure data lake in days, helping you collect, catalog, and clean your data for analytics and machine learning."
+  },
+  {
+    "name": "Amazon Managed Blockchain",
+    "path": "icons/blockchain/Arch_Amazon-Managed-Blockchain_64.svg",
+    "tags": [
+      "amazon",
+      "blockchain",
+      "managed"
+    ],
+    "category": "blockchain",
+    "color": "#ED7100",
+    "description": "Amazon Managed Blockchain is a fully managed service that makes it easy to create and manage scalable blockchain networks using the popular open source frameworks Hyperledger Fabric and Ethereum."
+  },
+  {
+    "name": "Amazon Quantum Ledger Database",
+    "path": "icons/blockchain/Arch_Amazon-Quantum-Ledger-Database_64.svg",
+    "tags": [
+      "amazon",
+      "blockchain",
+      "database",
+      "ledger",
+      "qldb",
+      "quantum"
+    ],
+    "category": "blockchain",
+    "color": "#ED7100",
+    "description": "Amazon QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log owned by a central trusted authority."
+  },
+  {
+    "name": "Alexa For Business",
+    "path": "icons/business/Arch_Alexa-For-Business_64.svg",
+    "tags": [
+      "alexa",
+      "business",
+      "for",
+      "lex",
+      "serverless"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "Alexa for Business enables organizations to use Alexa's voice capabilities to help increase productivity and simplify meeting room management."
+  },
+  {
+    "name": "Amazon Chime",
+    "path": "icons/business/Arch_Amazon-Chime_64.svg",
+    "tags": [
+      "amazon",
+      "business",
+      "chime"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "Amazon Chime is a communications service that lets you meet, chat, and place business calls inside and outside your organization, all using a single application."
+  },
+  {
+    "name": "Amazon Chime Sdk",
+    "path": "icons/business/Arch_Amazon-Chime-SDK_64.svg",
+    "tags": [
+      "amazon",
+      "business",
+      "chime",
+      "sdk"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "Amazon Chime SDK enables developers to add real-time voice, video, and messaging capabilities to their applications."
+  },
+  {
+    "name": "Amazon Connect",
+    "path": "icons/business/Arch_Amazon-Connect_64.svg",
+    "tags": [
+      "amazon",
+      "business",
+      "connect"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "Amazon Connect is an easy-to-use omnichannel cloud contact center that helps companies provide superior customer service at a lower cost."
+  },
+  {
+    "name": "Amazon Pinpoint",
+    "path": "icons/business/Arch_Amazon-Pinpoint_64.svg",
+    "tags": [
+      "amazon",
+      "business",
+      "pinpoint"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "Amazon Pinpoint helps you engage your customers by sending them push notifications, email, SMS, and voice messages."
+  },
+  {
+    "name": "Amazon Pinpoint Apis",
+    "path": "icons/business/Arch_Amazon-Pinpoint-APIs_64.svg",
+    "tags": [
+      "amazon",
+      "apis",
+      "business",
+      "pinpoint"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "Amazon Pinpoint APIs enable you to programmatically send messages and manage customer engagement through push notifications, email, SMS, and voice."
+  },
+  {
+    "name": "Amazon Simple Email Service",
+    "path": "icons/business/Arch_Amazon-Simple-Email-Service_64.svg",
+    "tags": [
+      "amazon",
+      "business",
+      "email",
+      "service",
+      "ses",
+      "simple"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "Amazon SES is a cost-effective email service built on the reliable and scalable infrastructure that Amazon.com developed to serve its own customer base."
+  },
+  {
+    "name": "Amazon Workdocs",
+    "path": "icons/business/Arch_Amazon-WorkDocs_64.svg",
+    "tags": [
+      "amazon",
+      "business",
+      "workdocs"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "Amazon WorkDocs is a fully managed, secure enterprise storage and sharing service with strong administrative controls and feedback capabilities."
+  },
+  {
+    "name": "Amazon Workdocs Sdk",
+    "path": "icons/business/Arch_Amazon-WorkDocs-SDK_64.svg",
+    "tags": [
+      "amazon",
+      "business",
+      "sdk",
+      "workdocs"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "Amazon WorkDocs SDK enables developers to integrate document management capabilities into their applications."
+  },
+  {
+    "name": "Amazon Workmail",
+    "path": "icons/business/Arch_Amazon-WorkMail_64.svg",
+    "tags": [
+      "amazon",
+      "business",
+      "workmail"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "Amazon WorkMail is a secure, managed business email and calendar service with support for existing desktop and mobile email clients."
+  },
+  {
+    "name": "Aws Appfabric",
+    "path": "icons/business/Arch_AWS-AppFabric_64.svg",
+    "tags": [
+      "appfabric",
+      "aws",
+      "business"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "AWS AppFabric connects SaaS applications to quickly enable integrations and unlock capabilities with a unified security and management layer."
+  },
+  {
+    "name": "Aws End User Messaging",
+    "path": "icons/business/Arch_AWS-End-User-Messaging_64.svg",
+    "tags": [
+      "aws",
+      "business",
+      "end",
+      "messaging",
+      "user"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "AWS End User Messaging is a service that helps organizations communicate with their end users through multiple channels."
+  },
+  {
+    "name": "Aws Supply Chain",
+    "path": "icons/business/Arch_AWS-Supply-Chain_64.svg",
+    "tags": [
+      "aws",
+      "business",
+      "chain",
+      "supply"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "AWS Supply Chain is a cloud-based application that helps businesses improve supply chain visibility and make faster, more informed decisions."
+  },
+  {
+    "name": "Aws Wickr",
+    "path": "icons/business/Arch_AWS-Wickr_64.svg",
+    "tags": [
+      "aws",
+      "business",
+      "wickr"
+    ],
+    "category": "business",
+    "color": "#DD344C",
+    "description": "AWS Wickr provides end-to-end encrypted messaging and collaboration for enterprises, government agencies, and individuals."
+  },
+  {
+    "name": "Analytics",
+    "path": "icons/category/Arch-Category_Analytics_64.svg",
+    "tags": [
+      "analytics",
+      "category"
+    ],
+    "category": "category",
+    "color": "#8C4FFF",
+    "description": "Analytics category icon representing AWS analytics services."
+  },
+  {
+    "name": "Application Integration",
+    "path": "icons/category/Arch-Category_Application-Integration_64.svg",
+    "tags": [
+      "application",
+      "category",
+      "integration"
+    ],
+    "category": "category",
+    "color": "#E7157B",
+    "description": "Application Integration category icon representing AWS application integration services."
+  },
+  {
+    "name": "Artificial Intelligence",
+    "path": "icons/category/Arch-Category_Artificial-Intelligence_64.svg",
+    "tags": [
+      "artificial",
+      "category",
+      "intelligence"
+    ],
+    "category": "category",
+    "color": "#01A88D",
+    "description": "Artificial Intelligence category icon representing AWS AI and machine learning services."
+  },
+  {
+    "name": "Blockchain",
+    "path": "icons/category/Arch-Category_Blockchain_64.svg",
+    "tags": [
+      "blockchain",
+      "category"
+    ],
+    "category": "category",
+    "color": "#ED7100",
+    "description": "Blockchain category icon representing AWS blockchain services."
+  },
+  {
+    "name": "Business Applications",
+    "path": "icons/category/Arch-Category_Business-Applications_64.svg",
+    "tags": [
+      "applications",
+      "business",
+      "category"
+    ],
+    "category": "category",
+    "color": "#DD344C",
+    "description": "Business Applications category icon representing AWS business application services."
+  },
+  {
+    "name": "Cloud Financial Management",
+    "path": "icons/category/Arch-Category_Cloud-Financial-Management_64.svg",
+    "tags": [
+      "category",
+      "cloud",
+      "financial",
+      "management"
+    ],
+    "category": "category",
+    "color": "#7AA116",
+    "description": "Cloud Financial Management category icon representing AWS financial management services."
+  },
+  {
+    "name": "Compute",
+    "path": "icons/category/Arch-Category_Compute_64.svg",
+    "tags": [
+      "category",
+      "compute"
+    ],
+    "category": "category",
+    "color": "#ED7100",
+    "description": "Compute category icon representing AWS compute services."
+  },
+  {
+    "name": "Contact Center",
+    "path": "icons/category/Arch-Category_Contact-Center_64.svg",
+    "tags": [
+      "category",
+      "center",
+      "contact"
+    ],
+    "category": "category",
+    "color": "#DD344C",
+    "description": "Contact Center category icon representing AWS contact center services."
+  },
+  {
+    "name": "Containers",
+    "path": "icons/category/Arch-Category_Containers_64.svg",
+    "tags": [
+      "category",
+      "containers"
+    ],
+    "category": "category",
+    "color": "#ED7100",
+    "description": "Containers category icon representing AWS container services."
+  },
+  {
+    "name": "Customer Enablement",
+    "path": "icons/category/Arch-Category_Customer-Enablement_64.svg",
+    "tags": [
+      "category",
+      "customer",
+      "enablement"
+    ],
+    "category": "category",
+    "color": "#C925D1",
+    "description": "Customer Enablement category icon representing AWS customer enablement services."
+  },
+  {
+    "name": "Database",
+    "path": "icons/category/Arch-Category_Database_64.svg",
+    "tags": [
+      "category",
+      "database"
+    ],
+    "category": "category",
+    "color": "#C925D1",
+    "description": "Database category icon representing AWS database services."
+  },
+  {
+    "name": "Developer Tools",
+    "path": "icons/category/Arch-Category_Developer-Tools_64.svg",
+    "tags": [
+      "category",
+      "developer",
+      "tools"
+    ],
+    "category": "category",
+    "color": "#C925D1",
+    "description": "Developer Tools category icon representing AWS developer tools and services."
+  },
+  {
+    "name": "End User Computing",
+    "path": "icons/category/Arch-Category_End-User-Computing_64.svg",
+    "tags": [
+      "category",
+      "computing",
+      "end",
+      "user"
+    ],
+    "category": "category",
+    "color": "#01A88D",
+    "description": "End User Computing category icon representing AWS end user computing services."
+  },
+  {
+    "name": "Front End Web Mobile",
+    "path": "icons/category/Arch-Category_Front-End-Web-Mobile_64.svg",
+    "tags": [
+      "category",
+      "end",
+      "front",
+      "mobile",
+      "web"
+    ],
+    "category": "category",
+    "color": "#DD344C",
+    "description": "Front End Web Mobile category icon representing AWS frontend web and mobile services."
+  },
+  {
+    "name": "Games",
+    "path": "icons/category/Arch-Category_Games_64.svg",
+    "tags": [
+      "category",
+      "games"
+    ],
+    "category": "category",
+    "color": "#8C4FFF",
+    "description": "Games category icon representing AWS gaming services."
+  },
+  {
+    "name": "Internet Of Things",
+    "path": "icons/category/Arch-Category_Internet-of-Things_64.svg",
+    "tags": [
+      "category",
+      "internet",
+      "things"
+    ],
+    "category": "category",
+    "color": "#7AA116",
+    "description": "Internet Of Things category icon representing AWS IoT services."
+  },
+  {
+    "name": "Management Governance",
+    "path": "icons/category/Arch-Category_Management-Governance_64.svg",
+    "tags": [
+      "category",
+      "governance",
+      "management"
+    ],
+    "category": "category",
+    "color": "#E7157B",
+    "description": "Management Governance category icon representing AWS management and governance services."
+  },
+  {
+    "name": "Media Services",
+    "path": "icons/category/Arch-Category_Media-Services_64.svg",
+    "tags": [
+      "category",
+      "media",
+      "services"
+    ],
+    "category": "category",
+    "color": "#ED7100",
+    "description": "Media Services category icon representing AWS media services."
+  },
+  {
+    "name": "Migration Modernization",
+    "path": "icons/category/Arch-Category_Migration-Modernization_64.svg",
+    "tags": [
+      "category",
+      "migration",
+      "modernization"
+    ],
+    "category": "category",
+    "color": "#01A88D",
+    "description": "Migration Modernization category icon representing AWS migration and modernization services."
+  },
+  {
+    "name": "Networking Content Delivery",
+    "path": "icons/category/Arch-Category_Networking-Content-Delivery_64.svg",
+    "tags": [
+      "category",
+      "content",
+      "delivery",
+      "networking"
+    ],
+    "category": "category",
+    "color": "#8C4FFF",
+    "description": "Networking Content Delivery category icon representing AWS networking and content delivery services."
+  },
+  {
+    "name": "Quantum Technologies",
+    "path": "icons/category/Arch-Category_Quantum-Technologies_64.svg",
+    "tags": [
+      "category",
+      "quantum",
+      "technologies"
+    ],
+    "category": "category",
+    "color": "#ED7100",
+    "description": "Quantum Technologies category icon representing AWS quantum computing services."
+  },
+  {
+    "name": "Satellite",
+    "path": "icons/category/Arch-Category_Satellite_64.svg",
+    "tags": [
+      "category",
+      "satellite"
+    ],
+    "category": "category",
+    "color": "#C925D1",
+    "description": "Satellite category icon representing AWS satellite services."
+  },
+  {
+    "name": "Security Identity Compliance",
+    "path": "icons/category/Arch-Category_Security-Identity-Compliance_64.svg",
+    "tags": [
+      "category",
+      "compliance",
+      "identity",
+      "security"
+    ],
+    "category": "category",
+    "color": "#DD344C",
+    "description": "Security Identity Compliance category icon representing AWS security, identity, and compliance services."
+  },
+  {
+    "name": "Serverless",
+    "path": "icons/category/Arch-Category_Serverless_64.svg",
+    "tags": [
+      "category",
+      "serverless"
+    ],
+    "category": "category",
+    "color": "#8C4FFF",
+    "description": "Serverless category icon representing AWS serverless services."
+  },
+  {
+    "name": "Storage",
+    "path": "icons/category/Arch-Category_Storage_64.svg",
+    "tags": [
+      "category",
+      "storage"
+    ],
+    "category": "category",
+    "color": "#7AA116",
+    "description": "Storage category icon representing AWS storage services."
+  },
+  {
+    "name": "Amazon Dcv",
+    "path": "icons/compute/Arch_Amazon-DCV_64.svg",
+    "tags": [
+      "amazon",
+      "compute",
+      "dcv"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "Amazon DCV is a high-performance remote display protocol that helps you securely deliver remote desktops and application streaming from any cloud or data center to any device."
+  },
+  {
+    "name": "Amazon Ec2",
+    "path": "icons/compute/Arch_Amazon-EC2_64.svg",
+    "tags": [
+      "amazon",
+      "compute",
+      "ec2"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "Amazon EC2 provides resizable compute capacity in the cloud, making web-scale cloud computing easier for developers."
+  },
+  {
+    "name": "Amazon Ec2 Auto Scaling",
+    "path": "icons/compute/Arch_Amazon-EC2-Auto-Scaling_64.svg",
+    "tags": [
+      "amazon",
+      "auto",
+      "autoscaling",
+      "compute",
+      "ec2",
+      "scaling"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "Amazon EC2 Auto Scaling helps you maintain application availability and allows you to automatically add or remove EC2 instances according to conditions you define."
+  },
+  {
+    "name": "Amazon Ec2 Image Builder",
+    "path": "icons/compute/Arch_Amazon-EC2-Image-Builder_64.svg",
+    "tags": [
+      "amazon",
+      "builder",
+      "compute",
+      "ec2",
+      "image"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "Amazon EC2 Image Builder simplifies the creation, maintenance, validation, and testing of Linux or Windows server images for use on AWS or on-premises."
+  },
+  {
+    "name": "Amazon Elastic Vmware Service",
+    "path": "icons/compute/Arch_Amazon-Elastic-VMware-Service_64.svg",
+    "tags": [
+      "amazon",
+      "compute",
+      "elastic",
+      "service",
+      "vmware"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "Amazon Elastic VMware Service (VMware Cloud on AWS) brings VMware's enterprise-class Software-Defined Data Center (SDDC) software to the AWS Cloud."
+  },
+  {
+    "name": "Amazon Lightsail",
+    "path": "icons/compute/Arch_Amazon-Lightsail_64.svg",
+    "tags": [
+      "amazon",
+      "compute",
+      "lightsail"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "Amazon Lightsail is the easiest way to get started with AWS, providing virtual private servers, databases, and load balancers at a low, predictable price."
+  },
+  {
+    "name": "Amazon Lightsail For Research",
+    "path": "icons/compute/Arch_Amazon-Lightsail-for-Research_64.svg",
+    "tags": [
+      "amazon",
+      "compute",
+      "for",
+      "lightsail",
+      "research"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "Amazon Lightsail for Research provides researchers with easy-to-use cloud resources for scientific computing and data analysis."
+  },
+  {
+    "name": "Aws App Runner",
+    "path": "icons/compute/Arch_AWS-App-Runner_64.svg",
+    "tags": [
+      "app",
+      "aws",
+      "compute",
+      "runner"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS App Runner is a fully managed service that makes it easy to quickly deploy containerized web applications and APIs at scale."
+  },
+  {
+    "name": "Aws Batch",
+    "path": "icons/compute/Arch_AWS-Batch_64.svg",
+    "tags": [
+      "aws",
+      "batch",
+      "compute"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS."
+  },
+  {
+    "name": "Aws Compute Optimizer",
+    "path": "icons/compute/Arch_AWS-Compute-Optimizer_64.svg",
+    "tags": [
+      "aws",
+      "compute",
+      "optimizer"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS Compute Optimizer recommends optimal EC2 instance types and sizes for your workloads to reduce costs and improve performance."
+  },
+  {
+    "name": "Aws Elastic Beanstalk",
+    "path": "icons/compute/Arch_AWS-Elastic-Beanstalk_64.svg",
+    "tags": [
+      "aws",
+      "beanstalk",
+      "compute",
+      "eb",
+      "elastic"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker."
+  },
+  {
+    "name": "Aws Lambda",
+    "path": "icons/compute/Arch_AWS-Lambda_64.svg",
+    "tags": [
+      "aws",
+      "aws lambda",
+      "compute",
+      "lambda",
+      "serverless"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS Lambda is a serverless compute service that runs your code in response to events and automatically manages the compute resources."
+  },
+  {
+    "name": "Aws Local Zones",
+    "path": "icons/compute/Arch_AWS-Local-Zones_64.svg",
+    "tags": [
+      "aws",
+      "compute",
+      "local",
+      "zones"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS Local Zones are a type of infrastructure deployment that places compute, storage, database, and other select AWS services closer to large population, industry, and IT centers."
+  },
+  {
+    "name": "Aws Nitro Enclaves",
+    "path": "icons/compute/Arch_AWS-Nitro-Enclaves_64.svg",
+    "tags": [
+      "aws",
+      "compute",
+      "enclaves",
+      "nitro"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS Nitro Enclaves is an Amazon EC2 capability that enables you to create isolated compute environments to further protect and securely process highly sensitive data."
+  },
+  {
+    "name": "Aws Outposts Family",
+    "path": "icons/compute/Arch_AWS-Outposts-family_64.svg",
+    "tags": [
+      "aws",
+      "compute",
+      "family",
+      "outposts"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS Outposts Family brings native AWS services, infrastructure, and operating models to virtually any data center, co-location space, or on-premises facility."
+  },
+  {
+    "name": "Aws Outposts Rack",
+    "path": "icons/compute/Arch_AWS-Outposts-rack_64.svg",
+    "tags": [
+      "aws",
+      "compute",
+      "outposts",
+      "rack"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS Outposts Rack is a fully managed service that extends AWS infrastructure, services, APIs, and tools to your data center."
+  },
+  {
+    "name": "Aws Outposts Servers",
+    "path": "icons/compute/Arch_AWS-Outposts-servers_64.svg",
+    "tags": [
+      "aws",
+      "compute",
+      "outposts",
+      "servers"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS Outposts Servers are 1U and 2U servers that bring AWS compute and storage to edge locations and smaller data centers."
+  },
+  {
+    "name": "Aws Parallel Cluster",
+    "path": "icons/compute/Arch_AWS-Parallel-Cluster_64.svg",
+    "tags": [
+      "aws",
+      "cluster",
+      "compute",
+      "parallel"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS ParallelCluster is an open-source cluster management tool that makes it easy for you to deploy and manage high-performance computing (HPC) clusters on AWS."
+  },
+  {
+    "name": "Aws Parallel Computing Service",
+    "path": "icons/compute/Arch_AWS-Parallel-Computing-Service_64.svg",
+    "tags": [
+      "aws",
+      "compute",
+      "computing",
+      "parallel",
+      "service"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS Parallel Computing Service provides high-performance computing capabilities for running large-scale parallel workloads."
+  },
+  {
+    "name": "Aws Serverless Application Repository",
+    "path": "icons/compute/Arch_AWS-Serverless-Application-Repository_64.svg",
+    "tags": [
+      "application",
+      "aws",
+      "compute",
+      "repository",
+      "serverless"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS Serverless Application Repository makes it easy for developers and enterprises to discover, deploy, and publish serverless applications."
+  },
+  {
+    "name": "Aws Simspace Weaver",
+    "path": "icons/compute/Arch_AWS-SimSpace-Weaver_64.svg",
+    "tags": [
+      "aws",
+      "compute",
+      "simspace",
+      "weaver"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS SimSpace Weaver is a fully managed service that helps you build, deploy, and operate large-scale spatial simulations in the cloud."
+  },
+  {
+    "name": "Aws Wavelength",
+    "path": "icons/compute/Arch_AWS-Wavelength_64.svg",
+    "tags": [
+      "aws",
+      "compute",
+      "wavelength"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "AWS Wavelength brings AWS services to the edge of the 5G network, minimizing latency to mobile devices and end users."
+  },
+  {
+    "name": "Bottlerocket",
+    "path": "icons/compute/Arch_Bottlerocket_64.svg",
+    "tags": [
+      "bottlerocket",
+      "compute"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "Bottlerocket is a Linux-based operating system purpose-built to run containers and is optimized for security, operations, and compliance."
+  },
+  {
+    "name": "Elastic Fabric Adapter",
+    "path": "icons/compute/Arch_Elastic-Fabric-Adapter_64.svg",
+    "tags": [
+      "adapter",
+      "compute",
+      "directory service",
+      "elastic",
+      "fabric"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "Elastic Fabric Adapter (EFA) is a network interface for Amazon EC2 instances that enables you to run applications requiring high levels of inter-node communication at scale on AWS."
+  },
+  {
+    "name": "Nice Enginframe",
+    "path": "icons/compute/Arch_NICE-EnginFrame_64.svg",
+    "tags": [
+      "compute",
+      "enginframe",
+      "nice"
+    ],
+    "category": "compute",
+    "color": "#ED7100",
+    "description": "NICE EnginFrame is a web-based framework that provides a unified interface for accessing HPC and cloud resources."
+  },
+  {
+    "name": "Amazon Ecs Anywhere",
+    "path": "icons/containers/Arch_Amazon-ECS-Anywhere_64.svg",
+    "tags": [
+      "amazon",
+      "anywhere",
+      "containers",
+      "ecs"
+    ],
+    "category": "containers",
+    "color": "#ED7100",
+    "description": "Amazon ECS Anywhere enables you to run containerized workloads on your own infrastructure using the same APIs, cluster management, and deployment tools as Amazon ECS."
+  },
+  {
+    "name": "Amazon Eks Anywhere",
+    "path": "icons/containers/Arch_Amazon-EKS-Anywhere_64.svg",
+    "tags": [
+      "amazon",
+      "anywhere",
+      "containers",
+      "eks"
+    ],
+    "category": "containers",
+    "color": "#ED7100",
+    "description": "Amazon EKS Anywhere enables you to create and operate Kubernetes clusters on your own infrastructure using the same open-source Kubernetes distributions used in Amazon EKS."
+  },
+  {
+    "name": "Amazon Eks Cloud",
+    "path": "icons/containers/Arch_Amazon-EKS-Cloud_64.svg",
+    "tags": [
+      "amazon",
+      "cloud",
+      "containers",
+      "eks"
+    ],
+    "category": "containers",
+    "color": "#ED7100",
+    "description": "Amazon EKS Cloud is the managed Kubernetes service that makes it easy to run Kubernetes on AWS without needing to install and operate your own Kubernetes control plane."
+  },
+  {
+    "name": "Amazon Eks Distro",
+    "path": "icons/containers/Arch_Amazon-EKS-Distro_64.svg",
+    "tags": [
+      "amazon",
+      "containers",
+      "distro",
+      "eks"
+    ],
+    "category": "containers",
+    "color": "#ED7100",
+    "description": "Amazon EKS Distro is a Kubernetes distribution based on and used by Amazon EKS to create reliable and secure Kubernetes clusters."
+  },
+  {
+    "name": "Amazon Elastic Container Registry",
+    "path": "icons/containers/Arch_Amazon-Elastic-Container-Registry_64.svg",
+    "tags": [
+      "amazon",
+      "container",
+      "containers",
+      "ecr",
+      "elastic",
+      "registry"
+    ],
+    "category": "containers",
+    "color": "#ED7100",
+    "description": "Amazon Elastic Container Registry (ECR) is a fully managed Docker container registry that makes it easy to store, manage, and deploy Docker container images."
+  },
+  {
+    "name": "Amazon Elastic Container Service",
+    "path": "icons/containers/Arch_Amazon-Elastic-Container-Service_64.svg",
+    "tags": [
+      "amazon",
+      "container",
+      "containers",
+      "ecs",
+      "elastic",
+      "service"
+    ],
+    "category": "containers",
+    "color": "#ED7100",
+    "description": "Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications."
+  },
+  {
+    "name": "Amazon Elastic Kubernetes Service",
+    "path": "icons/containers/Arch_Amazon-Elastic-Kubernetes-Service_64.svg",
+    "tags": [
+      "amazon",
+      "containers",
+      "eks",
+      "elastic",
+      "kubernetes",
+      "service"
+    ],
+    "category": "containers",
+    "color": "#ED7100",
+    "description": "Amazon Elastic Kubernetes Service (EKS) is a managed Kubernetes service that makes it easy to run Kubernetes on AWS."
+  },
+  {
+    "name": "Aws Fargate",
+    "path": "icons/containers/Arch_AWS-Fargate_64.svg",
+    "tags": [
+      "aws",
+      "containers",
+      "fargate"
+    ],
+    "category": "containers",
+    "color": "#ED7100",
+    "description": "AWS Fargate is a serverless compute engine for containers that works with both Amazon ECS and Amazon EKS, removing the need to provision and manage servers."
+  },
+  {
+    "name": "Red Hat Openshift Service On Aws",
+    "path": "icons/containers/Arch_Red-Hat-OpenShift-Service-on-AWS_64.svg",
+    "tags": [
+      "aws",
+      "containers",
+      "hat",
+      "openshift",
+      "red",
+      "service"
+    ],
+    "category": "containers",
+    "color": "#ED7100",
+    "description": "Red Hat OpenShift Service on AWS (ROSA) is a fully managed turnkey application platform that allows you to focus on delivering value to your business instead of managing infrastructure."
+  },
+  {
+    "name": "Aws Activate",
+    "path": "icons/customer/Arch_AWS-Activate_64.svg",
+    "tags": [
+      "activate",
+      "aws",
+      "customer"
+    ],
+    "category": "customer",
+    "color": "#C925D1",
+    "description": "AWS Activate provides startups with the resources they need to get started on AWS, including credits, training, and support."
+  },
+  {
+    "name": "Aws Iq",
+    "path": "icons/customer/Arch_AWS-IQ_64.svg",
+    "tags": [
+      "aws",
+      "customer"
+    ],
+    "category": "customer",
+    "color": "#C925D1",
+    "description": "AWS IQ makes it easy to find, connect with, and pay AWS Certified third-party experts for on-demand project work."
+  },
+  {
+    "name": "Aws Managed Services",
+    "path": "icons/customer/Arch_AWS-Managed-Services_64.svg",
+    "tags": [
+      "aws",
+      "customer",
+      "managed",
+      "services"
+    ],
+    "category": "customer",
+    "color": "#C925D1",
+    "description": "AWS Managed Services provides ongoing management of your AWS infrastructure so you can focus on your applications."
+  },
+  {
+    "name": "Aws Professional Services",
+    "path": "icons/customer/Arch_AWS-Professional-Services_64.svg",
+    "tags": [
+      "aws",
+      "customer",
+      "professional",
+      "services"
+    ],
+    "category": "customer",
+    "color": "#C925D1",
+    "description": "AWS Professional Services helps organizations achieve their desired business outcomes by providing expertise, methodologies, and tools."
+  },
+  {
+    "name": "Aws Repost",
+    "path": "icons/customer/Arch_AWS-rePost_64.svg",
+    "tags": [
+      "aws",
+      "customer",
+      "repost"
+    ],
+    "category": "customer",
+    "color": "#C925D1",
+    "description": "AWS re:Post is a community-driven Q&A service that provides access to AWS technical content and community experts."
+  },
+  {
+    "name": "Aws Repost Private",
+    "path": "icons/customer/Arch_AWS-rePost-Private_64.svg",
+    "tags": [
+      "aws",
+      "customer",
+      "private",
+      "repost"
+    ],
+    "category": "customer",
+    "color": "#C925D1",
+    "description": "AWS re:Post Private enables organizations to create private Q&A communities for their teams."
+  },
+  {
+    "name": "Aws Support",
+    "path": "icons/customer/Arch_AWS-Support_64.svg",
+    "tags": [
+      "aws",
+      "customer",
+      "support"
+    ],
+    "category": "customer",
+    "color": "#C925D1",
+    "description": "AWS Support provides technical support from engineers who understand your use cases and help you achieve the outcomes you expect from AWS."
+  },
+  {
+    "name": "Aws Training Certification",
+    "path": "icons/customer/Arch_AWS-Training-Certification_64.svg",
+    "tags": [
+      "aws",
+      "certification",
+      "customer",
+      "training"
+    ],
+    "category": "customer",
+    "color": "#C925D1",
+    "description": "AWS Training and Certification helps you build cloud skills with role-based learning paths and hands-on training."
+  },
+  {
+    "name": "Amazon Aurora",
+    "path": "icons/database/Arch_Amazon-Aurora_64.svg",
+    "tags": [
+      "amazon",
+      "aurora",
+      "database"
+    ],
+    "category": "database",
+    "color": "#C925D1",
+    "description": "Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud, combining the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open-source databases."
+  },
+  {
+    "name": "Amazon Documentdb",
+    "path": "icons/database/Arch_Amazon-DocumentDB_64.svg",
+    "tags": [
+      "amazon",
+      "database",
+      "documentdb"
+    ],
+    "category": "database",
+    "color": "#C925D1",
+    "description": "Amazon DocumentDB is a fast, scalable, highly available, and fully managed document database service that supports MongoDB workloads."
+  },
+  {
+    "name": "Amazon Dynamodb",
+    "path": "icons/database/Arch_Amazon-DynamoDB_64.svg",
+    "tags": [
+      "amazon",
+      "database",
+      "dynamo",
+      "dynamodb",
+      "serverless"
+    ],
+    "category": "database",
+    "color": "#C925D1",
+    "description": "Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability."
+  },
+  {
+    "name": "Amazon Elasticache",
+    "path": "icons/database/Arch_Amazon-ElastiCache_64.svg",
+    "tags": [
+      "amazon",
+      "database",
+      "elastic cache",
+      "elasticache"
+    ],
+    "category": "database",
+    "color": "#C925D1",
+    "description": "Amazon ElastiCache is a fully managed in-memory caching service that improves application performance by retrieving data from fast, managed, in-memory caches instead of slower disk-based databases."
+  },
+  {
+    "name": "Amazon Keyspaces",
+    "path": "icons/database/Arch_Amazon-Keyspaces_64.svg",
+    "tags": [
+      "amazon",
+      "database",
+      "keyspaces"
+    ],
+    "category": "database",
+    "color": "#C925D1",
+    "description": "Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra-compatible database service."
+  },
+  {
+    "name": "Amazon Memorydb",
+    "path": "icons/database/Arch_Amazon-MemoryDB_64.svg",
+    "tags": [
+      "amazon",
+      "database",
+      "memorydb"
+    ],
+    "category": "database",
+    "color": "#C925D1",
+    "description": "Amazon MemoryDB for Redis is a Redis-compatible, durable, in-memory database service that delivers microsecond read and single-digit millisecond write latency."
+  },
+  {
+    "name": "Amazon Neptune",
+    "path": "icons/database/Arch_Amazon-Neptune_64.svg",
+    "tags": [
+      "amazon",
+      "database",
+      "neptune"
+    ],
+    "category": "database",
+    "color": "#C925D1",
+    "description": "Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets."
+  },
+  {
+    "name": "Amazon Rds",
+    "path": "icons/database/Arch_Amazon-RDS_64.svg",
+    "tags": [
+      "amazon",
+      "database",
+      "rds"
+    ],
+    "category": "database",
+    "color": "#C925D1",
+    "description": "Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud, providing cost-efficient and resizable capacity while automating time-consuming administration tasks."
+  },
+  {
+    "name": "Amazon Timestream",
+    "path": "icons/database/Arch_Amazon-Timestream_64.svg",
+    "tags": [
+      "amazon",
+      "database",
+      "timestream"
+    ],
+    "category": "database",
+    "color": "#C925D1",
+    "description": "Amazon Timestream is a fast, scalable, fully managed time-series database service that makes it easy to store and analyze trillions of time-series data points per day."
+  },
+  {
+    "name": "Aws Database Migration Service",
+    "path": "icons/database/Arch_AWS-Database-Migration-Service_64.svg",
+    "tags": [
+      "aws",
+      "database",
+      "database migration",
+      "dms",
+      "migration",
+      "service"
+    ],
+    "category": "database",
+    "color": "#C925D1",
+    "description": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely, with minimal downtime."
+  },
+  {
+    "name": "Oracle Database At Aws",
+    "path": "icons/database/Arch_Oracle-Database-at-AWS_64.svg",
+    "tags": [
+      "aws",
+      "database",
+      "oracle"
+    ],
+    "category": "database",
+    "color": "#C925D1",
+    "description": "Oracle Database on AWS enables you to run Oracle databases on AWS infrastructure with high availability and performance."
+  },
+  {
+    "name": "Amazon Codecatalyst",
+    "path": "icons/developer/Arch_Amazon-CodeCatalyst_64.svg",
+    "tags": [
+      "amazon",
+      "codecatalyst",
+      "developer"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "Amazon CodeCatalyst is a unified software development service that helps you plan, code, build, test, and deploy applications on AWS."
+  },
+  {
+    "name": "Amazon Corretto",
+    "path": "icons/developer/Arch_Amazon-Corretto_64.svg",
+    "tags": [
+      "amazon",
+      "corretto",
+      "developer"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the Open Java Development Kit (OpenJDK)."
+  },
+  {
+    "name": "Aws Cloud Control Api",
+    "path": "icons/developer/Arch_AWS-Cloud-Control-API_64.svg",
+    "tags": [
+      "api",
+      "aws",
+      "cloud",
+      "control",
+      "developer"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS Cloud Control API provides a uniform way to manage AWS and third-party cloud resources through a standardized API."
+  },
+  {
+    "name": "Aws Cloud Development Kit",
+    "path": "icons/developer/Arch_AWS-Cloud-Development-Kit_64.svg",
+    "tags": [
+      "aws",
+      "cdk",
+      "cloud",
+      "developer",
+      "development",
+      "kit"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS Cloud Development Kit (CDK) is an open-source software development framework to define cloud infrastructure in code and provision it through AWS CloudFormation."
+  },
+  {
+    "name": "Aws Cloud9",
+    "path": "icons/developer/Arch_AWS-Cloud9_64.svg",
+    "tags": [
+      "aws",
+      "cloud9",
+      "developer"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser."
+  },
+  {
+    "name": "Aws Cloudshell",
+    "path": "icons/developer/Arch_AWS-CloudShell_64.svg",
+    "tags": [
+      "aws",
+      "cloudshell",
+      "developer"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS CloudShell is a browser-based shell that makes it easy to securely manage, explore, and interact with your AWS resources."
+  },
+  {
+    "name": "Aws Codeartifact",
+    "path": "icons/developer/Arch_AWS-CodeArtifact_64.svg",
+    "tags": [
+      "aws",
+      "codeartifact",
+      "developer"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS CodeArtifact is a fully managed artifact repository service that makes it easy for organizations to securely store, publish, and share software packages."
+  },
+  {
+    "name": "Aws Codebuild",
+    "path": "icons/developer/Arch_AWS-CodeBuild_64.svg",
+    "tags": [
+      "aws",
+      "codebuild",
+      "developer"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages."
+  },
+  {
+    "name": "Aws Codecommit",
+    "path": "icons/developer/Arch_AWS-CodeCommit_64.svg",
+    "tags": [
+      "aws",
+      "codecommit",
+      "developer"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS CodeCommit is a fully managed source control service that hosts secure Git-based repositories."
+  },
+  {
+    "name": "Aws Codedeploy",
+    "path": "icons/developer/Arch_AWS-CodeDeploy_64.svg",
+    "tags": [
+      "aws",
+      "codedeploy",
+      "developer"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS CodeDeploy is a fully managed deployment service that automates software deployments to various compute services."
+  },
+  {
+    "name": "Aws Codepipeline",
+    "path": "icons/developer/Arch_AWS-CodePipeline_64.svg",
+    "tags": [
+      "aws",
+      "codepipeline",
+      "developer"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS CodePipeline is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates."
+  },
+  {
+    "name": "Aws Command Line Interface",
+    "path": "icons/developer/Arch_AWS-Command-Line-Interface_64.svg",
+    "tags": [
+      "aws",
+      "cli",
+      "command",
+      "developer",
+      "interface",
+      "line"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS Command Line Interface (CLI) is a unified tool to manage your AWS services from the command line and automate them through scripts."
+  },
+  {
+    "name": "Aws Fault Injection Service",
+    "path": "icons/developer/Arch_AWS-Fault-Injection-Service_64.svg",
+    "tags": [
+      "aws",
+      "developer",
+      "fault",
+      "injection",
+      "service"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS Fault Injection Service (FIS) is a fully managed service for running fault injection experiments on AWS workloads to improve their performance, observability, and resiliency."
+  },
+  {
+    "name": "Aws Infrastructure Composer",
+    "path": "icons/developer/Arch_AWS-Infrastructure-Composer_64.svg",
+    "tags": [
+      "aws",
+      "composer",
+      "developer",
+      "infrastructure"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS Infrastructure Composer is a visual tool that helps you design and deploy AWS infrastructure using a drag-and-drop interface."
+  },
+  {
+    "name": "Aws Tools And Sdks",
+    "path": "icons/developer/Arch_AWS-Tools-and-SDKs_64.svg",
+    "tags": [
+      "and",
+      "aws",
+      "developer",
+      "sdk",
+      "sdks",
+      "tools"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS Tools and SDKs provide libraries, code samples, documentation, tools, and resources for developers building applications on AWS."
+  },
+  {
+    "name": "Aws X Ray",
+    "path": "icons/developer/Arch_AWS-X-Ray_64.svg",
+    "tags": [
+      "aws",
+      "developer",
+      "ray",
+      "serverless",
+      "x-ray"
+    ],
+    "category": "developer",
+    "color": "#C925D1",
+    "description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture."
+  },
+  {
+    "name": "Amazon Appstream 2",
+    "path": "icons/enduser/Arch_Amazon-AppStream-2_64.svg",
+    "tags": [
+      "amazon",
+      "appstream",
+      "enduser"
+    ],
+    "category": "enduser",
+    "color": "#01A88D",
+    "description": "Amazon AppStream 2.0 is a fully managed application streaming service that enables you to stream desktop applications to users without rewriting them."
+  },
+  {
+    "name": "Amazon Workspaces Family",
+    "path": "icons/enduser/Arch_Amazon-WorkSpaces-Family_64.svg",
+    "tags": [
+      "amazon",
+      "enduser",
+      "family",
+      "workspaces"
+    ],
+    "category": "enduser",
+    "color": "#01A88D",
+    "description": "Amazon WorkSpaces Family provides managed, secure cloud desktop experiences for your end users, enabling them to access resources from anywhere."
+  },
+  {
+    "name": "Aws Billing Conductor",
+    "path": "icons/financial/Arch_AWS-Billing-Conductor_64.svg",
+    "tags": [
+      "aws",
+      "billing",
+      "conductor",
+      "financial"
+    ],
+    "category": "financial",
+    "color": "#7AA116",
+    "description": "AWS Billing Conductor helps you customize your AWS billing data, create custom pricing plans, and allocate costs across your organization."
+  },
+  {
+    "name": "Aws Budgets",
+    "path": "icons/financial/Arch_AWS-Budgets_64.svg",
+    "tags": [
+      "aws",
+      "budgets",
+      "financial"
+    ],
+    "category": "financial",
+    "color": "#7AA116",
+    "description": "AWS Budgets gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount."
+  },
+  {
+    "name": "Aws Cost And Usage Report",
+    "path": "icons/financial/Arch_AWS-Cost-and-Usage-Report_64.svg",
+    "tags": [
+      "and",
+      "aws",
+      "cost",
+      "financial",
+      "report",
+      "usage"
+    ],
+    "category": "financial",
+    "color": "#7AA116",
+    "description": "AWS Cost and Usage Reports provide detailed billing information about your AWS usage and costs."
+  },
+  {
+    "name": "Aws Cost Explorer",
+    "path": "icons/financial/Arch_AWS-Cost-Explorer_64.svg",
+    "tags": [
+      "aws",
+      "cost",
+      "costexplorer",
+      "explorer",
+      "financial"
+    ],
+    "category": "financial",
+    "color": "#7AA116",
+    "description": "AWS Cost Explorer has an easy-to-use interface that lets you visualize, understand, and manage your AWS costs and usage over time."
+  },
+  {
+    "name": "Reserved Instance Reporting",
+    "path": "icons/financial/Arch_Reserved-Instance-Reporting_64.svg",
+    "tags": [
+      "financial",
+      "instance",
+      "reporting",
+      "reserved"
+    ],
+    "category": "financial",
+    "color": "#7AA116",
+    "description": "Reserved Instance Reporting provides detailed information about your Reserved Instance utilization and recommendations for optimization."
+  },
+  {
+    "name": "Savings Plans",
+    "path": "icons/financial/Arch_Savings-Plans_64.svg",
+    "tags": [
+      "financial",
+      "plans",
+      "savings"
+    ],
+    "category": "financial",
+    "color": "#7AA116",
+    "description": "Savings Plans is a flexible pricing model that provides savings of up to 72% on your AWS compute usage, in exchange for a one- or three-year hourly spend commitment."
+  },
+  {
+    "name": "Amazon Location Service",
+    "path": "icons/frontend/Arch_Amazon-Location-Service_64.svg",
+    "tags": [
+      "amazon",
+      "frontend",
+      "location",
+      "service"
+    ],
+    "category": "frontend",
+    "color": "#DD344C",
+    "description": "Amazon Location Service makes it easy for developers to add location functionality to applications, including maps, points of interest, geocoding, routing, and tracking."
+  },
+  {
+    "name": "Aws Amplify",
+    "path": "icons/frontend/Arch_AWS-Amplify_64.svg",
+    "tags": [
+      "amplify",
+      "aws",
+      "frontend",
+      "serverless"
+    ],
+    "category": "frontend",
+    "color": "#DD344C",
+    "description": "AWS Amplify is a complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS."
+  },
+  {
+    "name": "Aws Device Farm",
+    "path": "icons/frontend/Arch_AWS-Device-Farm_64.svg",
+    "tags": [
+      "aws",
+      "device",
+      "farm",
+      "frontend"
+    ],
+    "category": "frontend",
+    "color": "#DD344C",
+    "description": "AWS Device Farm is an app testing service that enables you to improve the quality of your web and mobile apps by testing them across hundreds of real devices."
+  },
+  {
+    "name": "Amazon Gamelift Servers",
+    "path": "icons/games/Arch_Amazon-GameLift-Servers_64.svg",
+    "tags": [
+      "amazon",
+      "gamelift",
+      "games",
+      "servers"
+    ],
+    "category": "games",
+    "color": "#8C4FFF",
+    "description": "Amazon GameLift Servers is a managed service for deploying, operating, and scaling dedicated game servers for session-based multiplayer games."
+  },
+  {
+    "name": "Amazon Gamelift Streams",
+    "path": "icons/games/Arch_Amazon-GameLift-Streams_64.svg",
+    "tags": [
+      "amazon",
+      "gamelift",
+      "games",
+      "streams"
+    ],
+    "category": "games",
+    "color": "#8C4FFF",
+    "description": "Amazon GameLift Streams enables you to stream games from the cloud to players' devices, reducing latency and hardware requirements."
+  },
+  {
+    "name": "Open 3d Engine",
+    "path": "icons/games/Arch_Open-3D-Engine_64.svg",
+    "tags": [
+      "engine",
+      "games",
+      "open"
+    ],
+    "category": "games",
+    "color": "#8C4FFF",
+    "description": "Open 3D Engine (O3DE) is an open-source, real-time 3D development engine that enables developers to build games and simulations."
+  },
+  {
+    "name": "Aws Marketplace Dark",
+    "path": "icons/general/Arch_AWS-Marketplace_Dark_64.svg",
+    "tags": [
+      "aws",
+      "dark",
+      "general",
+      "marketplace"
+    ],
+    "category": "general",
+    "color": "#FFFFFF",
+    "description": "AWS Marketplace (Dark) is a curated digital catalog that makes it easy to find, test, buy, and deploy software that runs on AWS, optimized for dark mode interfaces."
+  },
+  {
+    "name": "Aws Marketplace Light",
+    "path": "icons/general/Arch_AWS-Marketplace_Light_64.svg",
+    "tags": [
+      "aws",
+      "general",
+      "light",
+      "marketplace"
+    ],
+    "category": "general",
+    "color": "#232F3E",
+    "description": "AWS Marketplace (Light) is a curated digital catalog that makes it easy to find, test, buy, and deploy software that runs on AWS, optimized for light mode interfaces."
+  },
+  {
+    "name": "Amazon Appflow",
+    "path": "icons/integration/Arch_Amazon-AppFlow_64.svg",
+    "tags": [
+      "amazon",
+      "appflow",
+      "integration"
+    ],
+    "category": "integration",
+    "color": "#E7157B",
+    "description": "Amazon AppFlow is a fully managed integration service that enables you to securely transfer data between software-as-a-service (SaaS) applications and AWS services."
+  },
+  {
+    "name": "Amazon Eventbridge",
+    "path": "icons/integration/Arch_Amazon-EventBridge_64.svg",
+    "tags": [
+      "amazon",
+      "eventbridge",
+      "integration",
+      "serverless"
+    ],
+    "category": "integration",
+    "color": "#E7157B",
+    "description": "Amazon EventBridge is a serverless event bus that makes it easy to connect applications together using data from your own applications, integrated Software-as-a-Service (SaaS) applications, and AWS services."
+  },
+  {
+    "name": "Amazon Managed Workflows For Apache Airflow",
+    "path": "icons/integration/Arch_Amazon-Managed-Workflows-for-Apache-Airflow_64.svg",
+    "tags": [
+      "airflow",
+      "amazon",
+      "apache",
+      "for",
+      "integration",
+      "managed",
+      "workflows"
+    ],
+    "category": "integration",
+    "color": "#E7157B",
+    "description": "Amazon Managed Workflows for Apache Airflow (MWAA) is a managed orchestration service for Apache Airflow that makes it easy to set up and operate end-to-end data pipelines in the cloud."
+  },
+  {
+    "name": "Amazon Mq",
+    "path": "icons/integration/Arch_Amazon-MQ_64.svg",
+    "tags": [
+      "activemq",
+      "amazon",
+      "integration",
+      "mq",
+      "rabbitmq"
+    ],
+    "category": "integration",
+    "color": "#E7157B",
+    "description": "Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that makes it easy to set up and operate message brokers in the cloud."
+  },
+  {
+    "name": "Amazon Simple Notification Service",
+    "path": "icons/integration/Arch_Amazon-Simple-Notification-Service_64.svg",
+    "tags": [
+      "amazon",
+      "integration",
+      "notification",
+      "serverless",
+      "service",
+      "simple",
+      "sns"
+    ],
+    "category": "integration",
+    "color": "#E7157B",
+    "description": "Amazon SNS is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication."
+  },
+  {
+    "name": "Amazon Simple Queue Service",
+    "path": "icons/integration/Arch_Amazon-Simple-Queue-Service_64.svg",
+    "tags": [
+      "amazon",
+      "integration",
+      "queue",
+      "serverless",
+      "service",
+      "simple",
+      "sqs"
+    ],
+    "category": "integration",
+    "color": "#E7157B",
+    "description": "Amazon SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications."
+  },
+  {
+    "name": "Aws Appsync",
+    "path": "icons/integration/Arch_AWS-AppSync_64.svg",
+    "tags": [
+      "appsync",
+      "aws",
+      "integration",
+      "serverless"
+    ],
+    "category": "integration",
+    "color": "#E7157B",
+    "description": "AWS AppSync creates serverless GraphQL and Pub/Sub APIs that simplify application development through a single endpoint to securely query, update, or publish data."
+  },
+  {
+    "name": "Aws B2b Data Interchange",
+    "path": "icons/integration/Arch_AWS-B2B-Data-Interchange_64.svg",
+    "tags": [
+      "aws",
+      "b2b",
+      "data",
+      "integration",
+      "interchange"
+    ],
+    "category": "integration",
+    "color": "#E7157B",
+    "description": "AWS B2B Data Interchange helps you exchange business documents with trading partners using industry-standard formats like EDI."
+  },
+  {
+    "name": "Aws Express Workflows",
+    "path": "icons/integration/Arch_AWS-Express-Workflows_64.svg",
+    "tags": [
+      "aws",
+      "express",
+      "integration",
+      "serverless",
+      "stepfunctions",
+      "workflows"
+    ],
+    "category": "integration",
+    "color": "#E7157B",
+    "description": "AWS Step Functions Express Workflows are ideal for high-volume, event-processing workloads such as IoT data ingestion, streaming data processing, and mobile application backends."
+  },
+  {
+    "name": "Aws Step Functions",
+    "path": "icons/integration/Arch_AWS-Step-Functions_64.svg",
+    "tags": [
+      "aws",
+      "functions",
+      "integration",
+      "serverless",
+      "sfn",
+      "step",
+      "stepfunctions"
+    ],
+    "category": "integration",
+    "color": "#E7157B",
+    "description": "AWS Step Functions is a serverless orchestration service that lets you combine AWS Lambda functions and other AWS services to build business-critical applications."
+  },
+  {
+    "name": "Aws Iot Analytics",
+    "path": "icons/iot/Arch_AWS-IoT-Analytics_64.svg",
+    "tags": [
+      "analytics",
+      "aws",
+      "iot",
+      "iot analytics",
+      "iot core",
+      "iotanalytics"
+    ],
+    "category": "iot",
+    "color": "#7AA116",
+    "description": "AWS IoT Analytics is a fully managed service that makes it easy to run and operationalize sophisticated analytics on massive volumes of IoT data without having to worry about the cost and complexity typically required to build an IoT analytics platform."
+  },
+  {
+    "name": "Aws Iot Button",
+    "path": "icons/iot/Arch_AWS-IoT-Button_64.svg",
+    "tags": [
+      "aws",
+      "button",
+      "iot",
+      "iot core"
+    ],
+    "category": "iot",
+    "color": "#7AA116",
+    "description": "AWS IoT Button is a programmable button based on the Amazon Dash Button hardware that enables simple and secure device connectivity to cloud services."
+  },
+  {
+    "name": "Aws Iot Core",
+    "path": "icons/iot/Arch_AWS-IoT-Core_64.svg",
+    "tags": [
+      "aws",
+      "core",
+      "iot",
+      "iot core"
+    ],
+    "category": "iot",
+    "color": "#7AA116",
+    "description": "AWS IoT Core lets you connect billions of IoT devices and route trillions of messages to AWS services without managing infrastructure."
+  },
+  {
+    "name": "Aws Iot Device Defender",
+    "path": "icons/iot/Arch_AWS-IoT-Device-Defender_64.svg",
+    "tags": [
+      "aws",
+      "defender",
+      "device",
+      "device defender",
+      "iot",
+      "iot core",
+      "iot device defender"
+    ],
+    "category": "iot",
+    "color": "#7AA116",
+    "description": "AWS IoT Device Defender helps you secure your fleet of IoT devices by continuously auditing device configurations and monitoring devices for security anomalies."
+  },
+  {
+    "name": "Aws Iot Device Management",
+    "path": "icons/iot/Arch_AWS-IoT-Device-Management_64.svg",
+    "tags": [
+      "aws",
+      "device",
+      "iot",
+      "iot core",
+      "iot device management",
+      "iotdm",
+      "management"
+    ],
+    "category": "iot",
+    "color": "#7AA116",
+    "description": "AWS IoT Device Management helps you securely register, organize, monitor, and remotely manage IoT devices at scale."
+  },
+  {
+    "name": "Aws Iot Events",
+    "path": "icons/iot/Arch_AWS-IoT-Events_64.svg",
+    "tags": [
+      "aws",
+      "events",
+      "iot",
+      "iot core",
+      "iot events",
+      "iotevents"
+    ],
+    "category": "iot",
+    "color": "#7AA116",
+    "description": "AWS IoT Events is a fully managed IoT service that makes it easy to detect and respond to events from IoT sensors and applications."
+  },
+  {
+    "name": "Aws Iot Expresslink",
+    "path": "icons/iot/Arch_AWS-IoT-ExpressLink_64.svg",
+    "tags": [
+      "aws",
+      "expresslink",
+      "iot",
+      "iot core",
+      "iot expresslink"
+    ],
+    "category": "iot",
+    "color": "#7AA116",
+    "description": "AWS IoT ExpressLink is a family of hardware modules that provide secure, reliable, and fast connectivity from devices to AWS IoT Core."
+  },
+  {
+    "name": "Aws Iot Fleetwise",
+    "path": "icons/iot/Arch_AWS-IoT-FleetWise_64.svg",
+    "tags": [
+      "aws",
+      "fleetwise",
+      "iot",
+      "iot core",
+      "iot fleetwise"
+    ],
+    "category": "iot",
+    "color": "#7AA116",
+    "description": "AWS IoT FleetWise makes it easy to collect, transform, and transfer vehicle data to the cloud in near real-time."
+  },
+  {
+    "name": "Aws Iot Greengrass",
+    "path": "icons/iot/Arch_AWS-IoT-Greengrass_64.svg",
+    "tags": [
+      "aws",
+      "greengrass",
+      "iot",
+      "iot core",
+      "iot greengrass",
+      "iotgreengrass"
+    ],
+    "category": "iot",
+    "color": "#7AA116",
+    "description": "AWS IoT Greengrass extends AWS to edge devices so they can act locally on the data they generate, while still using the cloud for management, analytics, and durable storage."
+  },
+  {
+    "name": "Aws Iot Sitewise",
+    "path": "icons/iot/Arch_AWS-IoT-SiteWise_64.svg",
+    "tags": [
+      "aws",
+      "iot",
+      "iot core",
+      "iot sitewise",
+      "sitewise"
+    ],
+    "category": "iot",
+    "color": "#7AA116",
+    "description": "AWS IoT SiteWise is a managed service that makes it easy to collect, store, organize, and monitor data from industrial equipment at scale."
+  },
+  {
+    "name": "Aws Iot Twinmaker",
+    "path": "icons/iot/Arch_AWS-IoT-TwinMaker_64.svg",
+    "tags": [
+      "aws",
+      "iot",
+      "iot core",
+      "iot twinmaker",
+      "twinmaker"
+    ],
+    "category": "iot",
+    "color": "#7AA116",
+    "description": "AWS IoT TwinMaker makes it easier for developers to create digital twins of real-world systems like buildings, factories, industrial equipment, and production lines."
+  },
+  {
+    "name": "Freertos",
+    "path": "icons/iot/Arch_FreeRTOS_64.svg",
+    "tags": [
+      "freeRTOS",
+      "iot"
+    ],
+    "category": "iot",
+    "color": "#7AA116",
+    "description": "FreeRTOS is an open-source real-time operating system for microcontrollers that makes small, low-power edge devices easy to program, deploy, secure, connect, and manage."
+  },
+  {
+    "name": "Amazon Cloudwatch",
+    "path": "icons/management/Arch_Amazon-CloudWatch_64.svg",
+    "tags": [
+      "amazon",
+      "cloudwatch",
+      "management",
+      "serverless"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "Amazon CloudWatch monitors your AWS resources and the applications you run on AWS in real time."
+  },
+  {
+    "name": "Amazon Managed Grafana",
+    "path": "icons/management/Arch_Amazon-Managed-Grafana_64.svg",
+    "tags": [
+      "amazon",
+      "grafana",
+      "managed",
+      "management"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "Amazon Managed Grafana is a fully managed service that makes it easy to deploy, operate, and scale Grafana, a popular open-source analytics platform."
+  },
+  {
+    "name": "Amazon Managed Service For Prometheus",
+    "path": "icons/management/Arch_Amazon-Managed-Service-for-Prometheus_64.svg",
+    "tags": [
+      "amazon",
+      "for",
+      "managed",
+      "management",
+      "prometheus",
+      "service"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "Amazon Managed Service for Prometheus is a Prometheus-compatible monitoring service that makes it easy to monitor containerized applications at scale."
+  },
+  {
+    "name": "Aws Appconfig",
+    "path": "icons/management/Arch_AWS-AppConfig_64.svg",
+    "tags": [
+      "appconfig",
+      "aws",
+      "config",
+      "management"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS AppConfig enables you to quickly roll out application configuration changes in a controlled and monitored fashion."
+  },
+  {
+    "name": "Aws Application Auto Scaling",
+    "path": "icons/management/Arch_AWS-Application-Auto-Scaling_64.svg",
+    "tags": [
+      "application",
+      "auto",
+      "aws",
+      "management",
+      "scaling"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Application Auto Scaling automatically adjusts the capacity of your scalable resources to maintain steady, predictable performance at the lowest possible cost."
+  },
+  {
+    "name": "Aws Auto Scaling",
+    "path": "icons/management/Arch_AWS-Auto-Scaling_64.svg",
+    "tags": [
+      "auto",
+      "aws",
+      "management",
+      "scaling"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost."
+  },
+  {
+    "name": "Aws Backint Agent",
+    "path": "icons/management/Arch_AWS-Backint-Agent_64.svg",
+    "tags": [
+      "agent",
+      "aws",
+      "backint",
+      "management"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Backint Agent enables SAP HANA database backup and restore operations to AWS storage services."
+  },
+  {
+    "name": "Aws Chatbot",
+    "path": "icons/management/Arch_AWS-Chatbot_64.svg",
+    "tags": [
+      "aws",
+      "chatbot",
+      "management"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Chatbot is an interactive agent that makes it easy to monitor and interact with your AWS resources in your Slack channels and Amazon Chime chat rooms."
+  },
+  {
+    "name": "Aws Cloudformation",
+    "path": "icons/management/Arch_AWS-CloudFormation_64.svg",
+    "tags": [
+      "aws",
+      "cfn",
+      "cloudformation",
+      "management",
+      "serverless"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS CloudFormation provides a common language for you to model and provision AWS and third-party application resources in your cloud environment."
+  },
+  {
+    "name": "Aws Cloudtrail",
+    "path": "icons/management/Arch_AWS-CloudTrail_64.svg",
+    "tags": [
+      "aws",
+      "cloudtrail",
+      "management",
+      "serverless"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS CloudTrail enables you to log, continuously monitor, and retain account activity related to actions across your AWS infrastructure."
+  },
+  {
+    "name": "Aws Compute Optimizer",
+    "path": "icons/management/Arch_AWS-Compute-Optimizer_64.svg",
+    "tags": [
+      "aws",
+      "compute",
+      "management",
+      "optimizer"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Compute Optimizer recommends optimal AWS resources for your workloads to reduce costs and improve performance by using machine learning to analyze historical utilization metrics."
+  },
+  {
+    "name": "Aws Config",
+    "path": "icons/management/Arch_AWS-Config_64.svg",
+    "tags": [
+      "aws",
+      "config",
+      "management"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Config enables you to assess, audit, and evaluate the configurations of your AWS resources."
+  },
+  {
+    "name": "Aws Console Mobile Application",
+    "path": "icons/management/Arch_AWS-Console-Mobile-Application_64.svg",
+    "tags": [
+      "application",
+      "aws",
+      "console",
+      "management",
+      "mobile"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Console Mobile Application enables you to view and manage your AWS resources from your mobile device."
+  },
+  {
+    "name": "Aws Control Tower",
+    "path": "icons/management/Arch_AWS-Control-Tower_64.svg",
+    "tags": [
+      "aws",
+      "control",
+      "control tower",
+      "controltower",
+      "management",
+      "tower"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Control Tower provides the easiest way to set up and govern a secure, multi-account AWS environment."
+  },
+  {
+    "name": "Aws Distro For Opentelemetry",
+    "path": "icons/management/Arch_AWS-Distro-for-OpenTelemetry_64.svg",
+    "tags": [
+      "aws",
+      "distro",
+      "for",
+      "management",
+      "opentelemetry"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Distro for OpenTelemetry is a secure, production-ready, AWS-supported distribution of the OpenTelemetry project."
+  },
+  {
+    "name": "Aws Health Dashboard",
+    "path": "icons/management/Arch_AWS-Health-Dashboard_64.svg",
+    "tags": [
+      "aws",
+      "dashboard",
+      "health",
+      "management"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Health Dashboard provides ongoing visibility into your resource performance and the availability of your AWS services and accounts."
+  },
+  {
+    "name": "Aws Launch Wizard",
+    "path": "icons/management/Arch_AWS-Launch-Wizard_64.svg",
+    "tags": [
+      "aws",
+      "launch",
+      "management",
+      "wizard"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Launch Wizard offers a guided way of sizing, configuring, and deploying AWS resources for third-party applications."
+  },
+  {
+    "name": "Aws License Manager",
+    "path": "icons/management/Arch_AWS-License-Manager_64.svg",
+    "tags": [
+      "aws",
+      "license",
+      "licensemanager",
+      "management",
+      "manager"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS License Manager makes it easier to manage your software licenses from vendors such as Microsoft, SAP, Oracle, and IBM across AWS and on-premises environments."
+  },
+  {
+    "name": "Aws Management Console",
+    "path": "icons/management/Arch_AWS-Management-Console_64.svg",
+    "tags": [
+      "aws",
+      "console",
+      "management"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Management Console is a web-based interface for accessing and managing AWS services."
+  },
+  {
+    "name": "Aws Organizations",
+    "path": "icons/management/Arch_AWS-Organizations_64.svg",
+    "tags": [
+      "aws",
+      "management",
+      "organizations",
+      "orgs"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Organizations helps you centrally manage and govern your environment as you grow and scale your AWS resources."
+  },
+  {
+    "name": "Aws Proton",
+    "path": "icons/management/Arch_AWS-Proton_64.svg",
+    "tags": [
+      "aws",
+      "management",
+      "proton"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Proton is a fully managed service for container and serverless application delivery that helps platform teams implement consistent tooling and governance for developers."
+  },
+  {
+    "name": "Aws Resilience Hub",
+    "path": "icons/management/Arch_AWS-Resilience-Hub_64.svg",
+    "tags": [
+      "aws",
+      "hub",
+      "management",
+      "resilience"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Resilience Hub helps you define, validate, and track the resilience of your applications so you can avoid unnecessary downtime caused by software, infrastructure, or operational disruptions."
+  },
+  {
+    "name": "Aws Resource Explorer",
+    "path": "icons/management/Arch_AWS-Resource-Explorer_64.svg",
+    "tags": [
+      "aws",
+      "explorer",
+      "management",
+      "resource"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Resource Explorer is a searchable resource index that helps you discover and find your AWS resources across AWS Regions."
+  },
+  {
+    "name": "Aws Service Catalog",
+    "path": "icons/management/Arch_AWS-Service-Catalog_64.svg",
+    "tags": [
+      "aws",
+      "catalog",
+      "management",
+      "service",
+      "servicecatalog"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Service Catalog enables organizations to create and manage catalogs of IT services that are approved for use on AWS."
+  },
+  {
+    "name": "Aws Service Management Connector",
+    "path": "icons/management/Arch_AWS-Service-Management-Connector_64.svg",
+    "tags": [
+      "aws",
+      "connect",
+      "connector",
+      "management",
+      "service"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Service Management Connector enables you to integrate AWS services with external service management tools like ServiceNow."
+  },
+  {
+    "name": "Aws Systems Manager",
+    "path": "icons/management/Arch_AWS-Systems-Manager_64.svg",
+    "tags": [
+      "aws",
+      "management",
+      "manager",
+      "ssm",
+      "systems",
+      "systems manager"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Systems Manager is a management service that helps you automatically collect software inventory, apply OS patches, create system images, and configure Windows and Linux operating systems."
+  },
+  {
+    "name": "Aws Telco Network Builder",
+    "path": "icons/management/Arch_AWS-Telco-Network-Builder_64.svg",
+    "tags": [
+      "aws",
+      "builder",
+      "management",
+      "network",
+      "telco"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Telco Network Builder helps telecommunications companies build, deploy, and scale 5G and other network functions on AWS."
+  },
+  {
+    "name": "Aws Trusted Advisor",
+    "path": "icons/management/Arch_AWS-Trusted-Advisor_64.svg",
+    "tags": [
+      "advisor",
+      "aws",
+      "directory service",
+      "management",
+      "trusted",
+      "trusted advisor",
+      "trustedadvisor"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Trusted Advisor is an online resource that helps you reduce cost, increase performance, and improve security by optimizing your AWS environment."
+  },
+  {
+    "name": "Aws User Notifications",
+    "path": "icons/management/Arch_AWS-User-Notifications_64.svg",
+    "tags": [
+      "aws",
+      "management",
+      "notifications",
+      "user"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS User Notifications provides a centralized way to manage and view notifications from AWS services."
+  },
+  {
+    "name": "Aws Well Architected Tool",
+    "path": "icons/management/Arch_AWS-Well-Architected-Tool_64.svg",
+    "tags": [
+      "architected",
+      "aws",
+      "management",
+      "tool",
+      "well",
+      "well architected"
+    ],
+    "category": "management",
+    "color": "#E7157B",
+    "description": "AWS Well-Architected Tool helps you review and improve your cloud-based architectures and provides a consistent process for evaluating architectures."
+  },
+  {
+    "name": "Amazon Elastic Transcoder",
+    "path": "icons/media/Arch_Amazon-Elastic-Transcoder_64.svg",
+    "tags": [
+      "amazon",
+      "elastic",
+      "media",
+      "transcoder"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "Amazon Elastic Transcoder is media transcoding in the cloud, designed to be a highly scalable, easy-to-use, and cost-effective way for developers and businesses to convert media files from their source format into versions that will play on devices like smartphones, tablets, and PCs."
+  },
+  {
+    "name": "Amazon Interactive Video Service",
+    "path": "icons/media/Arch_Amazon-Interactive-Video-Service_64.svg",
+    "tags": [
+      "amazon",
+      "interactive",
+      "media",
+      "service",
+      "video"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "Amazon Interactive Video Service (IVS) is a managed live streaming solution that is quick and easy to set up, and ideal for creating interactive video experiences."
+  },
+  {
+    "name": "Amazon Kinesis Video Streams",
+    "path": "icons/media/Arch_Amazon-Kinesis-Video-Streams_64.svg",
+    "tags": [
+      "amazon",
+      "kinesis",
+      "media",
+      "serverless",
+      "streams",
+      "video"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "Amazon Kinesis Video Streams makes it easy to securely stream video from connected devices to AWS for media processing, transcoding, and content delivery."
+  },
+  {
+    "name": "Aws Deadline Cloud",
+    "path": "icons/media/Arch_AWS-Deadline-Cloud_64.svg",
+    "tags": [
+      "aws",
+      "cloud",
+      "deadline",
+      "directory service",
+      "media"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Deadline Cloud is a fully managed service that helps creative teams render computer graphics, visual effects, and animations at scale."
+  },
+  {
+    "name": "Aws Elemental Appliances & Software",
+    "path": "icons/media/Arch_AWS-Elemental-Appliances-&-Software_64.svg",
+    "tags": [
+      "appliances",
+      "aws",
+      "elemental",
+      "media",
+      "software"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Elemental Appliances & Software provides on-premises video processing solutions for broadcast and content production workflows."
+  },
+  {
+    "name": "Aws Elemental Conductor",
+    "path": "icons/media/Arch_AWS-Elemental-Conductor_64.svg",
+    "tags": [
+      "aws",
+      "conductor",
+      "elemental",
+      "media"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Elemental Conductor is a video processing orchestration platform that helps you manage and automate video workflows."
+  },
+  {
+    "name": "Aws Elemental Delta",
+    "path": "icons/media/Arch_AWS-Elemental-Delta_64.svg",
+    "tags": [
+      "aws",
+      "delta",
+      "elemental",
+      "media"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Elemental Delta is a video delivery platform that helps you deliver high-quality video experiences to viewers."
+  },
+  {
+    "name": "Aws Elemental Link",
+    "path": "icons/media/Arch_AWS-Elemental-Link_64.svg",
+    "tags": [
+      "aws",
+      "elemental",
+      "link",
+      "media"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Elemental Link is a hardware appliance that enables you to easily stream live video from your broadcast facility to AWS."
+  },
+  {
+    "name": "Aws Elemental Live",
+    "path": "icons/media/Arch_AWS-Elemental-Live_64.svg",
+    "tags": [
+      "aws",
+      "elemental",
+      "live",
+      "media"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Elemental Live is a high-performance video processing platform for live video streaming and broadcast workflows."
+  },
+  {
+    "name": "Aws Elemental Mediaconnect",
+    "path": "icons/media/Arch_AWS-Elemental-MediaConnect_64.svg",
+    "tags": [
+      "aws",
+      "connect",
+      "elemental",
+      "media",
+      "mediaconnect"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Elemental MediaConnect is a reliable and secure live video transport service that makes it easy to transport live video content."
+  },
+  {
+    "name": "Aws Elemental Mediaconvert",
+    "path": "icons/media/Arch_AWS-Elemental-MediaConvert_64.svg",
+    "tags": [
+      "aws",
+      "elemental",
+      "media",
+      "mediaconvert"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Elemental MediaConvert is a file-based video transcoding service with broadcast-grade features for processing on-demand content."
+  },
+  {
+    "name": "Aws Elemental Medialive",
+    "path": "icons/media/Arch_AWS-Elemental-MediaLive_64.svg",
+    "tags": [
+      "aws",
+      "elemental",
+      "media",
+      "medialive"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Elemental MediaLive is a broadcast-grade live video processing service that lets you create high-quality video streams for delivery to broadcast televisions and internet-connected multiscreen devices."
+  },
+  {
+    "name": "Aws Elemental Mediapackage",
+    "path": "icons/media/Arch_AWS-Elemental-MediaPackage_64.svg",
+    "tags": [
+      "aws",
+      "elemental",
+      "media",
+      "mediapackage"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Elemental MediaPackage prepares and protects your video for delivery over the Internet."
+  },
+  {
+    "name": "Aws Elemental Mediastore",
+    "path": "icons/media/Arch_AWS-Elemental-MediaStore_64.svg",
+    "tags": [
+      "aws",
+      "elemental",
+      "media",
+      "mediastore"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Elemental MediaStore is an AWS storage service optimized for media that provides the performance, consistency, and low latency required for video workflows."
+  },
+  {
+    "name": "Aws Elemental Mediatailor",
+    "path": "icons/media/Arch_AWS-Elemental-MediaTailor_64.svg",
+    "tags": [
+      "aws",
+      "elemental",
+      "media",
+      "mediatailor"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Elemental MediaTailor is a personalization and monetization service for video content providers."
+  },
+  {
+    "name": "Aws Elemental Server",
+    "path": "icons/media/Arch_AWS-Elemental-Server_64.svg",
+    "tags": [
+      "aws",
+      "elemental",
+      "media",
+      "server"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Elemental Server is a high-performance video processing platform for on-premises video workflows."
+  },
+  {
+    "name": "Aws Thinkbox Deadline",
+    "path": "icons/media/Arch_AWS-Thinkbox-Deadline_64.svg",
+    "tags": [
+      "aws",
+      "deadline",
+      "directory service",
+      "media",
+      "thinkbox"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Thinkbox Deadline is a render farm management system that helps you manage and scale rendering workloads."
+  },
+  {
+    "name": "Aws Thinkbox Frost",
+    "path": "icons/media/Arch_AWS-Thinkbox-Frost_64.svg",
+    "tags": [
+      "aws",
+      "frost",
+      "media",
+      "thinkbox"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Thinkbox Frost is a point cloud processing tool for visual effects and animation workflows."
+  },
+  {
+    "name": "Aws Thinkbox Krakatoa",
+    "path": "icons/media/Arch_AWS-Thinkbox-Krakatoa_64.svg",
+    "tags": [
+      "aws",
+      "krakatoa",
+      "media",
+      "thinkbox"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Thinkbox Krakatoa is a particle rendering system for creating visual effects in 3D animation and visual effects."
+  },
+  {
+    "name": "Aws Thinkbox Sequoia",
+    "path": "icons/media/Arch_AWS-Thinkbox-Sequoia_64.svg",
+    "tags": [
+      "aws",
+      "media",
+      "sequoia",
+      "thinkbox"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Thinkbox Sequoia is a distributed processing system for managing complex rendering and simulation workflows."
+  },
+  {
+    "name": "Aws Thinkbox Stoke",
+    "path": "icons/media/Arch_AWS-Thinkbox-Stoke_64.svg",
+    "tags": [
+      "aws",
+      "media",
+      "stoke",
+      "thinkbox"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Thinkbox Stoke is a particle simulation tool for creating fluid and smoke effects in visual effects and animation."
+  },
+  {
+    "name": "Aws Thinkbox Xmesh",
+    "path": "icons/media/Arch_AWS-Thinkbox-XMesh_64.svg",
+    "tags": [
+      "aws",
+      "media",
+      "thinkbox",
+      "xmesh"
+    ],
+    "category": "media",
+    "color": "#ED7100",
+    "description": "AWS Thinkbox XMesh is a geometry caching system that helps optimize rendering performance for complex 3D scenes."
+  },
+  {
+    "name": "Aws Application Discovery Service",
+    "path": "icons/migration/Arch_AWS-Application-Discovery-Service_64.svg",
+    "tags": [
+      "application",
+      "application discovery",
+      "applicationdiscovery",
+      "aws",
+      "discovery",
+      "migration",
+      "service"
+    ],
+    "category": "migration",
+    "color": "#01A88D",
+    "description": "AWS Application Discovery Service helps enterprise customers plan migration projects by gathering information about their on-premises data centers."
+  },
+  {
+    "name": "Aws Application Migration Service",
+    "path": "icons/migration/Arch_AWS-Application-Migration-Service_64.svg",
+    "tags": [
+      "application",
+      "aws",
+      "migration",
+      "service"
+    ],
+    "category": "migration",
+    "color": "#01A88D",
+    "description": "AWS Application Migration Service (MGN) minimizes time-intensive, error-prone manual processes by automatically converting your source servers to run natively on AWS."
+  },
+  {
+    "name": "Aws Data Transfer Terminal",
+    "path": "icons/migration/Arch_AWS-Data-Transfer-Terminal_64.svg",
+    "tags": [
+      "aws",
+      "data",
+      "migration",
+      "terminal",
+      "transfer"
+    ],
+    "category": "migration",
+    "color": "#01A88D",
+    "description": "AWS Data Transfer Terminal provides a physical device for transferring large amounts of data to AWS when network transfer is not feasible."
+  },
+  {
+    "name": "Aws Datasync",
+    "path": "icons/migration/Arch_AWS-DataSync_64.svg",
+    "tags": [
+      "aws",
+      "data sync",
+      "datasync",
+      "migration"
+    ],
+    "category": "migration",
+    "color": "#01A88D",
+    "description": "AWS DataSync is an online data transfer service that simplifies, automates, and accelerates copying large amounts of data to and from AWS storage services."
+  },
+  {
+    "name": "Aws Mainframe Modernization",
+    "path": "icons/migration/Arch_AWS-Mainframe-Modernization_64.svg",
+    "tags": [
+      "aws",
+      "mainframe",
+      "migration",
+      "modernization"
+    ],
+    "category": "migration",
+    "color": "#01A88D",
+    "description": "AWS Mainframe Modernization helps you migrate and modernize mainframe workloads to AWS managed runtime environments."
+  },
+  {
+    "name": "Aws Migration Evaluator",
+    "path": "icons/migration/Arch_AWS-Migration-Evaluator_64.svg",
+    "tags": [
+      "aws",
+      "evaluator",
+      "migration"
+    ],
+    "category": "migration",
+    "color": "#01A88D",
+    "description": "AWS Migration Evaluator helps you create a data-driven business case for AWS Cloud migration and modernization."
+  },
+  {
+    "name": "Aws Migration Hub",
+    "path": "icons/migration/Arch_AWS-Migration-Hub_64.svg",
+    "tags": [
+      "aws",
+      "hub",
+      "migration",
+      "migration hub",
+      "migrationhub"
+    ],
+    "category": "migration",
+    "color": "#01A88D",
+    "description": "AWS Migration Hub provides a single place to discover your existing servers, plan migrations, and track the status of each application migration to AWS."
+  },
+  {
+    "name": "Aws Transfer Family",
+    "path": "icons/migration/Arch_AWS-Transfer-Family_64.svg",
+    "tags": [
+      "aws",
+      "family",
+      "ftps",
+      "migration",
+      "sftp",
+      "transfer",
+      "transfer family"
+    ],
+    "category": "migration",
+    "color": "#01A88D",
+    "description": "AWS Transfer Family provides fully managed support for file transfers directly into and out of Amazon S3 or Amazon EFS using the SFTP, FTPS, and FTP protocols."
+  },
+  {
+    "name": "Aws Transform",
+    "path": "icons/migration/Arch_AWS-Transform_64.svg",
+    "tags": [
+      "aws",
+      "migration",
+      "transform"
+    ],
+    "category": "migration",
+    "color": "#01A88D",
+    "description": "AWS Transform helps you migrate and modernize your applications and databases to AWS."
+  },
+  {
+    "name": "Amazon Api Gateway",
+    "path": "icons/networking/Arch_Amazon-API-Gateway_64.svg",
+    "tags": [
+      "amazon",
+      "api",
+      "api gateway",
+      "apigateway",
+      "gateway",
+      "networking",
+      "serverless"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale."
+  },
+  {
+    "name": "Amazon Application Recovery Controller",
+    "path": "icons/networking/Arch_Amazon-Application-Recovery-Controller_64.svg",
+    "tags": [
+      "amazon",
+      "application",
+      "controller",
+      "networking",
+      "recovery"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "Amazon Application Recovery Controller helps you improve application availability by automating recovery workflows across multiple AWS Regions and accounts."
+  },
+  {
+    "name": "Amazon Cloudfront",
+    "path": "icons/networking/Arch_Amazon-CloudFront_64.svg",
+    "tags": [
+      "amazon",
+      "cdn",
+      "cloudfront",
+      "networking",
+      "serverless"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds."
+  },
+  {
+    "name": "Amazon Route 53",
+    "path": "icons/networking/Arch_Amazon-Route-53_64.svg",
+    "tags": [
+      "amazon",
+      "networking",
+      "route",
+      "route 53",
+      "route53",
+      "serverless"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service designed to give developers and businesses an extremely reliable and cost-effective way to route end users to Internet applications."
+  },
+  {
+    "name": "Amazon Virtual Private Cloud",
+    "path": "icons/networking/Arch_Amazon-Virtual-Private-Cloud_64.svg",
+    "tags": [
+      "amazon",
+      "cloud",
+      "networking",
+      "private",
+      "virtual",
+      "vpc"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "Amazon Virtual Private Cloud (VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources."
+  },
+  {
+    "name": "Amazon Vpc Lattice",
+    "path": "icons/networking/Arch_Amazon-VPC-Lattice_64.svg",
+    "tags": [
+      "amazon",
+      "lattice",
+      "networking",
+      "vpc"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "Amazon VPC Lattice is a service that simplifies service-to-service connectivity and security across VPCs, accounts, and on-premises networks."
+  },
+  {
+    "name": "Aws App Mesh",
+    "path": "icons/networking/Arch_AWS-App-Mesh_64.svg",
+    "tags": [
+      "app",
+      "app mesh",
+      "appmesh",
+      "aws",
+      "mesh",
+      "networking"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "AWS App Mesh is a service mesh that makes it easy to monitor and control microservices running on AWS."
+  },
+  {
+    "name": "Aws Client Vpn",
+    "path": "icons/networking/Arch_AWS-Client-VPN_64.svg",
+    "tags": [
+      "aws",
+      "client",
+      "networking",
+      "vpn"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "AWS Client VPN is a managed client-based VPN service that enables you to securely access your AWS resources and resources in your on-premises network."
+  },
+  {
+    "name": "Aws Cloud Map",
+    "path": "icons/networking/Arch_AWS-Cloud-Map_64.svg",
+    "tags": [
+      "aws",
+      "cloud",
+      "cloud map",
+      "cloudmap",
+      "map",
+      "networking"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "AWS Cloud Map is a cloud resource discovery service that you can use to create and maintain a map of your cloud resources."
+  },
+  {
+    "name": "Aws Cloud Wan",
+    "path": "icons/networking/Arch_AWS-Cloud-WAN_64.svg",
+    "tags": [
+      "aws",
+      "cloud",
+      "networking",
+      "wan"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "AWS Cloud WAN is a managed wide area network (WAN) service that makes it easy to build, operate, and monitor a unified global network that connects cloud and on-premises environments."
+  },
+  {
+    "name": "Aws Direct Connect",
+    "path": "icons/networking/Arch_AWS-Direct-Connect_64.svg",
+    "tags": [
+      "aws",
+      "connect",
+      "direct",
+      "direct connect",
+      "dx",
+      "networking"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "AWS Direct Connect makes it easy to establish a dedicated network connection from your premises to AWS, which can reduce network costs, increase bandwidth throughput, and provide a more consistent network experience than internet-based connections."
+  },
+  {
+    "name": "Aws Global Accelerator",
+    "path": "icons/networking/Arch_AWS-Global-Accelerator_64.svg",
+    "tags": [
+      "accelerator",
+      "aws",
+      "ga",
+      "global",
+      "global accelerator",
+      "networking"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "AWS Global Accelerator is a networking service that improves the availability and performance of your applications with local or global users."
+  },
+  {
+    "name": "Aws Private 5g",
+    "path": "icons/networking/Arch_AWS-Private-5G_64.svg",
+    "tags": [
+      "aws",
+      "networking",
+      "private"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "AWS Private 5G is a managed service that helps you set up and scale private mobile networks in days instead of months."
+  },
+  {
+    "name": "Aws Privatelink",
+    "path": "icons/networking/Arch_AWS-PrivateLink_64.svg",
+    "tags": [
+      "aws",
+      "networking",
+      "private link",
+      "privatelink"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "AWS PrivateLink provides private connectivity between VPCs, AWS services, and your on-premises networks, securely on the Amazon network."
+  },
+  {
+    "name": "Aws Site To Site Vpn",
+    "path": "icons/networking/Arch_AWS-Site-to-Site-VPN_64.svg",
+    "tags": [
+      "aws",
+      "networking",
+      "site",
+      "vpn"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "AWS Site-to-Site VPN creates a secure connection between your on-premises network and your VPCs."
+  },
+  {
+    "name": "Aws Transit Gateway",
+    "path": "icons/networking/Arch_AWS-Transit-Gateway_64.svg",
+    "tags": [
+      "aws",
+      "gateway",
+      "networking",
+      "tgw",
+      "transit",
+      "transit gateway"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "AWS Transit Gateway connects VPCs and on-premises networks through a central hub, simplifying your network architecture and reducing operational complexity."
+  },
+  {
+    "name": "Aws Verified Access",
+    "path": "icons/networking/Arch_AWS-Verified-Access_64.svg",
+    "tags": [
+      "access",
+      "aws",
+      "networking",
+      "verified"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "AWS Verified Access provides secure access to corporate applications without a VPN, using zero-trust network principles."
+  },
+  {
+    "name": "Elastic Load Balancing",
+    "path": "icons/networking/Arch_Elastic-Load-Balancing_64.svg",
+    "tags": [
+      "balancing",
+      "elastic",
+      "elb",
+      "load",
+      "load balancer",
+      "networking"
+    ],
+    "category": "networking",
+    "color": "#8C4FFF",
+    "description": "Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones."
+  },
+  {
+    "name": "Amazon Braket",
+    "path": "icons/quantum/Arch_Amazon-Braket_64.svg",
+    "tags": [
+      "amazon",
+      "braket",
+      "quantum"
+    ],
+    "category": "quantum",
+    "color": "#ED7100",
+    "description": "Amazon Braket is a fully managed quantum computing service that helps researchers and developers get started with quantum computing."
+  },
+  {
+    "name": "Aws Ground Station",
+    "path": "icons/satellite/Arch_AWS-Ground-Station_64.svg",
+    "tags": [
+      "aws",
+      "ground",
+      "satellite",
+      "station"
+    ],
+    "category": "satellite",
+    "color": "#C925D1",
+    "description": "AWS Ground Station is a fully managed service that lets you control satellite communications, process data, and scale your satellite operations without having to build or manage your own ground station infrastructure."
+  },
+  {
+    "name": "Amazon Cloud Directory",
+    "path": "icons/security/Arch_Amazon-Cloud-Directory_64.svg",
+    "tags": [
+      "amazon",
+      "cloud",
+      "directory",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "Amazon Cloud Directory is a highly available multi-tenant directory-based store in AWS that provides web-based directories, making it easy for you to organize and manage all of your resources and their relationships."
+  },
+  {
+    "name": "Amazon Cognito",
+    "path": "icons/security/Arch_Amazon-Cognito_64.svg",
+    "tags": [
+      "amazon",
+      "cognito",
+      "security",
+      "serverless"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "Amazon Cognito provides authentication, authorization, and user management for your web and mobile apps, enabling you to add user sign-up, sign-in, and access control to your applications."
+  },
+  {
+    "name": "Amazon Detective",
+    "path": "icons/security/Arch_Amazon-Detective_64.svg",
+    "tags": [
+      "amazon",
+      "detective",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "Amazon Detective makes it easy to analyze, investigate, and quickly identify the root cause of potential security issues or suspicious activities."
+  },
+  {
+    "name": "Amazon Guardduty",
+    "path": "icons/security/Arch_Amazon-GuardDuty_64.svg",
+    "tags": [
+      "amazon",
+      "guardduty",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "Amazon GuardDuty is a threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect your AWS accounts, workloads, and data stored in Amazon S3."
+  },
+  {
+    "name": "Amazon Inspector",
+    "path": "icons/security/Arch_Amazon-Inspector_64.svg",
+    "tags": [
+      "amazon",
+      "inspector",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS."
+  },
+  {
+    "name": "Amazon Macie",
+    "path": "icons/security/Arch_Amazon-Macie_64.svg",
+    "tags": [
+      "amazon",
+      "macie",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "Amazon Macie is a fully managed data security and data privacy service that uses machine learning and pattern matching to discover and protect your sensitive data in AWS."
+  },
+  {
+    "name": "Amazon Security Lake",
+    "path": "icons/security/Arch_Amazon-Security-Lake_64.svg",
+    "tags": [
+      "amazon",
+      "lake",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "Amazon Security Lake automatically centralizes security data from AWS services, custom sources, and third-party sources into a purpose-built data lake stored in your account."
+  },
+  {
+    "name": "Amazon Verified Permissions",
+    "path": "icons/security/Arch_Amazon-Verified-Permissions_64.svg",
+    "tags": [
+      "amazon",
+      "permissions",
+      "security",
+      "verified"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "Amazon Verified Permissions is a scalable permissions management and fine-grained authorization service for your applications."
+  },
+  {
+    "name": "Aws Artifact",
+    "path": "icons/security/Arch_AWS-Artifact_64.svg",
+    "tags": [
+      "artifact",
+      "aws",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Artifact is your go-to, central resource for compliance-related information that matters to you, including AWS security and compliance reports."
+  },
+  {
+    "name": "Aws Audit Manager",
+    "path": "icons/security/Arch_AWS-Audit-Manager_64.svg",
+    "tags": [
+      "audit",
+      "aws",
+      "manager",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Audit Manager helps you continuously audit your AWS usage to simplify how you assess risk and compliance with regulations and industry standards."
+  },
+  {
+    "name": "Aws Certificate Manager",
+    "path": "icons/security/Arch_AWS-Certificate-Manager_64.svg",
+    "tags": [
+      "acm",
+      "aws",
+      "certificate",
+      "certificate manager",
+      "manager",
+      "security",
+      "serverless"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Certificate Manager (ACM) handles the complexity of creating, storing, and renewing public and private SSL/TLS X.509 certificates and keys that protect your websites and APIs."
+  },
+  {
+    "name": "Aws Cloudhsm",
+    "path": "icons/security/Arch_AWS-CloudHSM_64.svg",
+    "tags": [
+      "aws",
+      "cloudhsm",
+      "hsm",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS CloudHSM is a cloud-based hardware security module (HSM) that enables you to easily generate and use your own encryption keys on the AWS Cloud."
+  },
+  {
+    "name": "Aws Directory Service",
+    "path": "icons/security/Arch_AWS-Directory-Service_64.svg",
+    "tags": [
+      "active directory",
+      "ad",
+      "aws",
+      "directory",
+      "directory service",
+      "security",
+      "service"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Directory Service for Microsoft Active Directory (AWS Managed Microsoft AD) enables your directory-aware workloads and AWS resources to use managed Active Directory in the AWS Cloud."
+  },
+  {
+    "name": "Aws Firewall Manager",
+    "path": "icons/security/Arch_AWS-Firewall-Manager_64.svg",
+    "tags": [
+      "aws",
+      "firewall",
+      "manager",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Firewall Manager is a security management service that allows you to centrally configure and manage firewall rules across your accounts and applications in AWS Organizations."
+  },
+  {
+    "name": "Aws Iam Identity Center",
+    "path": "icons/security/Arch_AWS-IAM-Identity-Center_64.svg",
+    "tags": [
+      "aws",
+      "center",
+      "iam",
+      "identity",
+      "security",
+      "serverless"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS IAM Identity Center (successor to AWS Single Sign-On) makes it easy to centrally manage access to multiple AWS accounts and business applications."
+  },
+  {
+    "name": "Aws Identity And Access Management",
+    "path": "icons/security/Arch_AWS-Identity-and-Access-Management_64.svg",
+    "tags": [
+      "access",
+      "and",
+      "aws",
+      "iam",
+      "identity",
+      "management",
+      "security",
+      "serverless"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely."
+  },
+  {
+    "name": "Aws Key Management Service",
+    "path": "icons/security/Arch_AWS-Key-Management-Service_64.svg",
+    "tags": [
+      "aws",
+      "key",
+      "kms",
+      "management",
+      "security",
+      "serverless",
+      "service"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Key Management Service (KMS) makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications."
+  },
+  {
+    "name": "Aws Network Firewall",
+    "path": "icons/security/Arch_AWS-Network-Firewall_64.svg",
+    "tags": [
+      "aws",
+      "firewall",
+      "network",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Network Firewall is a managed network firewall service that makes it easy to deploy essential network protections for all of your Amazon VPCs."
+  },
+  {
+    "name": "Aws Payment Cryptography",
+    "path": "icons/security/Arch_AWS-Payment-Cryptography_64.svg",
+    "tags": [
+      "aws",
+      "cryptography",
+      "payment",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Payment Cryptography helps you manage cryptographic keys and perform cryptographic operations for payment card processing."
+  },
+  {
+    "name": "Aws Private Certificate Authority",
+    "path": "icons/security/Arch_AWS-Private-Certificate-Authority_64.svg",
+    "tags": [
+      "acm",
+      "authority",
+      "aws",
+      "certificate",
+      "private",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Private Certificate Authority (Private CA) helps you manage private certificate authority hierarchies, including root and subordinate certificate authorities."
+  },
+  {
+    "name": "Aws Resource Access Manager",
+    "path": "icons/security/Arch_AWS-Resource-Access-Manager_64.svg",
+    "tags": [
+      "access",
+      "aws",
+      "manager",
+      "resource",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Resource Access Manager (RAM) helps you securely share your resources across AWS accounts, within your organization or organizational units (OUs) in AWS Organizations, enabling you to centrally manage those resources."
+  },
+  {
+    "name": "Aws Secrets Manager",
+    "path": "icons/security/Arch_AWS-Secrets-Manager_64.svg",
+    "tags": [
+      "aws",
+      "manager",
+      "secrets",
+      "secrets manager",
+      "security",
+      "serverless"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Secrets Manager helps you protect secrets needed to access your applications, services, and IT resources, enabling you to rotate, manage, and retrieve database credentials, API keys, and other secrets throughout their lifecycle."
+  },
+  {
+    "name": "Aws Security Hub",
+    "path": "icons/security/Arch_AWS-Security-Hub_64.svg",
+    "tags": [
+      "aws",
+      "hub",
+      "security",
+      "security hub",
+      "securityhub"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Security Hub gives you a comprehensive view of your security alerts and security posture across your AWS accounts."
+  },
+  {
+    "name": "Aws Security Incident Response",
+    "path": "icons/security/Arch_AWS-Security-Incident-Response_64.svg",
+    "tags": [
+      "aws",
+      "incident",
+      "response",
+      "security"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Security Incident Response helps you prepare for, respond to, and recover from security incidents in your AWS environment."
+  },
+  {
+    "name": "Aws Shield",
+    "path": "icons/security/Arch_AWS-Shield_64.svg",
+    "tags": [
+      "aws",
+      "security",
+      "shield"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Shield is a managed distributed denial of service (DDoS) protection service that safeguards applications running on AWS."
+  },
+  {
+    "name": "Aws Signer",
+    "path": "icons/security/Arch_AWS-Signer_64.svg",
+    "tags": [
+      "aws",
+      "security",
+      "signer"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS Signer is a fully managed code-signing service that helps you ensure the trust and integrity of your code."
+  },
+  {
+    "name": "Aws Waf",
+    "path": "icons/security/Arch_AWS-WAF_64.svg",
+    "tags": [
+      "aws",
+      "security",
+      "waf"
+    ],
+    "category": "security",
+    "color": "#DD344C",
+    "description": "AWS WAF is a web application firewall that helps protect your web applications or APIs against common web exploits and bots that may affect availability, compromise security, or consume excessive resources."
+  },
+  {
+    "name": "Amazon Efs",
+    "path": "icons/storage/Arch_Amazon-EFS_64.svg",
+    "tags": [
+      "amazon",
+      "efs",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "Amazon Elastic File System (EFS) provides a simple, scalable, fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources."
+  },
+  {
+    "name": "Amazon Elastic Block Store",
+    "path": "icons/storage/Arch_Amazon-Elastic-Block-Store_64.svg",
+    "tags": [
+      "amazon",
+      "block",
+      "ebs",
+      "elastic",
+      "storage",
+      "store"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "Amazon Elastic Block Store (EBS) provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud."
+  },
+  {
+    "name": "Amazon File Cache",
+    "path": "icons/storage/Arch_Amazon-File-Cache_64.svg",
+    "tags": [
+      "amazon",
+      "cache",
+      "file",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "Amazon File Cache provides a high-performance cache on AWS that makes it easier to process file data, regardless of where the data is stored."
+  },
+  {
+    "name": "Amazon Fsx",
+    "path": "icons/storage/Arch_Amazon-FSx_64.svg",
+    "tags": [
+      "amazon",
+      "fsx",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "Amazon FSx makes it easy and cost-effective to launch, run, and scale feature-rich, high-performance file systems in the cloud."
+  },
+  {
+    "name": "Amazon Fsx For Lustre",
+    "path": "icons/storage/Arch_Amazon-FSx-for-Lustre_64.svg",
+    "tags": [
+      "amazon",
+      "for",
+      "fsx",
+      "lustre",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "Amazon FSx for Lustre provides a high-performance file system optimized for fast processing of workloads such as machine learning, high-performance computing, and media processing."
+  },
+  {
+    "name": "Amazon Fsx For Netapp Ontap",
+    "path": "icons/storage/Arch_Amazon-FSx-for-NetApp-ONTAP_64.svg",
+    "tags": [
+      "amazon",
+      "for",
+      "fsx",
+      "netapp",
+      "ontap",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "Amazon FSx for NetApp ONTAP provides a fully managed shared storage solution built on NetApp's popular ONTAP file system."
+  },
+  {
+    "name": "Amazon Fsx For Openzfs",
+    "path": "icons/storage/Arch_Amazon-FSx-for-OpenZFS_64.svg",
+    "tags": [
+      "amazon",
+      "for",
+      "fsx",
+      "openzfs",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "Amazon FSx for OpenZFS provides a fully managed shared storage solution built on the OpenZFS file system."
+  },
+  {
+    "name": "Amazon Fsx For Wfs",
+    "path": "icons/storage/Arch_Amazon-FSx-for-WFS_64.svg",
+    "tags": [
+      "amazon",
+      "for",
+      "fsx",
+      "storage",
+      "wfs"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "Amazon FSx for Windows File Server provides a fully managed native Microsoft Windows file system so you can easily move your Windows-based applications to AWS."
+  },
+  {
+    "name": "Amazon S3 On Outposts",
+    "path": "icons/storage/Arch_Amazon-S3-on-Outposts_64.svg",
+    "tags": [
+      "amazon",
+      "outposts",
+      "s3",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "Amazon S3 on Outposts delivers object storage to your on-premises AWS Outposts environment, enabling you to store and retrieve data on Outposts using the same S3 APIs used in AWS Regions."
+  },
+  {
+    "name": "Amazon Simple Storage Service",
+    "path": "icons/storage/Arch_Amazon-Simple-Storage-Service_64.svg",
+    "tags": [
+      "amazon",
+      "s3",
+      "serverless",
+      "service",
+      "simple",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "Amazon Simple Storage Service (S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance."
+  },
+  {
+    "name": "Amazon Simple Storage Service Glacier",
+    "path": "icons/storage/Arch_Amazon-Simple-Storage-Service-Glacier_64.svg",
+    "tags": [
+      "amazon",
+      "glacier",
+      "s3",
+      "serverless",
+      "service",
+      "simple",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "Amazon S3 Glacier is a secure, durable, and low-cost storage class for data archiving and long-term backup."
+  },
+  {
+    "name": "Aws Backup",
+    "path": "icons/storage/Arch_AWS-Backup_64.svg",
+    "tags": [
+      "aws",
+      "backup",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "AWS Backup is a fully managed backup service that makes it easy to centralize and automate the backup of data across AWS services."
+  },
+  {
+    "name": "Aws Elastic Disaster Recovery",
+    "path": "icons/storage/Arch_AWS-Elastic-Disaster-Recovery_64.svg",
+    "tags": [
+      "aws",
+      "disaster",
+      "elastic",
+      "recovery",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "AWS Elastic Disaster Recovery (DRS) helps minimize downtime and data loss with fast, reliable recovery of on-premises and cloud-based applications using affordable storage, minimal compute, and point-in-time recovery."
+  },
+  {
+    "name": "Aws Snowball",
+    "path": "icons/storage/Arch_AWS-Snowball_64.svg",
+    "tags": [
+      "aws",
+      "snowball",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "AWS Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of the AWS Cloud."
+  },
+  {
+    "name": "Aws Snowball Edge",
+    "path": "icons/storage/Arch_AWS-Snowball-Edge_64.svg",
+    "tags": [
+      "aws",
+      "edge",
+      "snowball",
+      "storage"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "AWS Snowball Edge is a type of Snowball device with on-board storage and compute power for select AWS capabilities."
+  },
+  {
+    "name": "Aws Storage Gateway",
+    "path": "icons/storage/Arch_AWS-Storage-Gateway_64.svg",
+    "tags": [
+      "aws",
+      "gateway",
+      "sgw",
+      "storage",
+      "storage gateway"
+    ],
+    "category": "storage",
+    "color": "#7AA116",
+    "description": "AWS Storage Gateway is a hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage."
+  }
+]
