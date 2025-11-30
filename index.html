@@ -12,7 +12,7 @@
 
 <body>
     <header class="header">
-        <h1>AWS Icons</h1>
+        <h1><a href="/" class="header-title-link">AWS Icons</a></h1>
         <div class="header-actions">
             <a href="https://github.com/jajera/aws-icons" class="github-button" aria-label="View on GitHub"
                 target="_blank" rel="noopener noreferrer">
@@ -28,8 +28,11 @@
     </header>
 
     <main class="container">
-        <label for="search" class="sr-only">Search</label>
-        <input id="search" type="text" placeholder="Search name or tag" class="search-input">
+        <div class="search-header">
+            <label for="search" class="sr-only">Search</label>
+            <input id="search" type="text" placeholder="Search name or tag" class="search-input">
+            <div id="iconCount" class="icon-count"></div>
+        </div>
 
         <div class="tags-section">
             <div class="tags-header">
@@ -43,6 +46,12 @@
         </div>
 
         <div id="grid" class="grid"></div>
+
+        <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14l-6-6z" />
+            </svg>
+        </button>
 
         <p class="note">
             Icons are provided by <a href="https://aws.amazon.com/architecture/icons/" target="_blank"
@@ -265,17 +274,51 @@
             grid.innerHTML = "";
             const frag = document.createDocumentFragment();
 
-            state.data.filter(matches).forEach(icon => {
+            const filteredIcons = state.data.filter(matches);
+            const count = filteredIcons.length;
+            const total = state.data.length;
+
+            // Update icon count display
+            const countElement = document.getElementById("iconCount");
+            if (countElement) {
+                if (count === total) {
+                    countElement.textContent = `${total} icons`;
+                } else {
+                    countElement.textContent = `${count} of ${total} icons`;
+                }
+            }
+
+            filteredIcons.forEach(icon => {
                 const card = document.createElement("div");
                 card.className = "card";
 
-                const iconColor = icon.color || "#527FFF";
+                // Group and resource icons don't get background color - they have their own internal backgrounds
+                const iconColor = (icon.category === "group" || icon.category === "resource") ? "transparent" : (icon.color || "#527FFF");
                 const iconBg = `background-color: ${iconColor};`;
+                const groupClass = icon.category === "group" ? " icon-container-group" : "";
+                const resourceClass = icon.category === "resource" ? " icon-container-resource" : "";
+                // Service icons have category values like "analytics", "business", etc., or "category" for category icons
+                const serviceClass = (icon.category !== "group" && icon.category !== "resource") ? " icon-container-service" : "";
 
-                const description = icon.description || `${icon.name} is an AWS service.`;
+                // Ensure description is always a string and not empty
+                let description = icon.description;
+                if (!description || typeof description !== 'string' || !description.trim()) {
+                    // Fallback descriptions
+                    if (icon.category === 'category') {
+                        description = `${icon.name} category icon.`;
+                    } else if (icon.category === 'group') {
+                        description = `${icon.name} group icon.`;
+                    } else if (icon.category === 'resource') {
+                        description = `${icon.name} resource icon.`;
+                    } else {
+                        description = `${icon.name} is an AWS service.`;
+                    }
+                } else {
+                    description = description.trim();
+                }
                 card.innerHTML = `
-          <div class="icon-container" style="${iconBg}">
-            <img src="${icon.path}" alt="${icon.name}" class="icon-image">
+          <div class="icon-container${groupClass}${resourceClass}${serviceClass}" style="${iconBg}">
+            <img src="${icon.path}" alt="${icon.name}" class="icon-image" loading="lazy">
             <div class="card-actions">
               <button class="action-btn copy-svg" aria-label="Copy SVG" title="Copy SVG">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -298,10 +341,10 @@
                 </svg>
               </button>
             </div>
-            <div class="icon-tooltip">
-              <div class="tooltip-title">${icon.name}</div>
-              <div class="tooltip-description">${description}</div>
-            </div>
+          </div>
+          <div class="icon-tooltip">
+            <div class="tooltip-title">${icon.name}</div>
+            <div class="tooltip-description">${description}</div>
           </div>
           <div class="card-content">
             <div class="name">${icon.name}</div>
@@ -351,10 +394,33 @@
             };
         }
 
+        // Back to top button
+        function initBackToTop() {
+            const backToTopBtn = document.getElementById("backToTop");
+
+            function toggleBackToTop() {
+                if (window.scrollY > 300) {
+                    backToTopBtn.classList.add("visible");
+                } else {
+                    backToTopBtn.classList.remove("visible");
+                }
+            }
+
+            window.addEventListener("scroll", toggleBackToTop);
+
+            backToTopBtn.onclick = () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            };
+        }
+
         // Initialize
         async function init() {
             initDarkMode();
             initTagsToggle();
+            initBackToTop();
 
             document.getElementById("darkModeToggle").onclick = toggleDarkMode;
 

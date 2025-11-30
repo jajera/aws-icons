@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="80px" height="80px" viewBox="0 0 80 80" version="1.1">
-    <ns0:title>Icon-Resource/Storage/Res_Amazon-Simple-Storage-Service_Object_48</ns0:title>
-    <ns0:g id="Icon-Resource/Storage/Res_Amazon-Simple-Storage-Service_Object_48" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(16, 16) scale(1.6667)">
-        <ns0:path d="M23.971,43.9414 C12.959,43.9414 4,34.9824 4,23.9704 C4,12.9594 12.959,4.0004 23.971,4.0004 C34.983,4.0004 43.942,12.9594 43.942,23.9704 C43.942,34.9824 34.983,43.9414 23.971,43.9414 M23.971,2.0004 C11.857,2.0004 2,11.8564 2,23.9704 C2,36.0854 11.857,45.9414 23.971,45.9414 C36.085,45.9414 45.942,36.0854 45.942,23.9704 C45.942,11.8564 36.085,2.0004 23.971,2.0004" id="AWS-Amazon-Simple-Storage_Object_Resource-Icon_dark-bg" fill="#7AA116" />
-    </ns0:g>
-</ns0:svg>
