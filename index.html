@@ -166,10 +166,12 @@
         // Filter matching
         function matches(i) {
             const q = state.q.toLowerCase();
-            const nameHit = i.name.toLowerCase().includes(q);
+            // Search in name, fullname, and tags
+            const nameHit = i.name && i.name.toLowerCase().includes(q);
+            const fullnameHit = i.fullname && i.fullname.toLowerCase().includes(q);
             const tagHit = i.tags && i.tags.some(t => t.toLowerCase().includes(q));
             const tagsOk = state.tags.size === 0 || [...state.tags].every(t => i.tags && i.tags.includes(t));
-            return (q ? (nameHit || tagHit) : true) && tagsOk;
+            return (q ? (nameHit || fullnameHit || tagHit) : true) && tagsOk;
         }
 
         // SVG to PNG conversion
@@ -300,25 +302,28 @@
                 // Service icons have category values like "analytics", "business", etc., or "category" for category icons
                 const serviceClass = (icon.category !== "group" && icon.category !== "resource") ? " icon-container-service" : "";
 
+                // Get display name (use fullname if available, otherwise fall back to name)
+                const displayName = icon.fullname || icon.name || 'Unknown';
+
                 // Ensure description is always a string and not empty
                 let description = icon.description;
                 if (!description || typeof description !== 'string' || !description.trim()) {
                     // Fallback descriptions
                     if (icon.category === 'category') {
-                        description = `${icon.name} category icon.`;
+                        description = `${displayName} category icon.`;
                     } else if (icon.category === 'group') {
-                        description = `${icon.name} group icon.`;
+                        description = `${displayName} group icon.`;
                     } else if (icon.category === 'resource') {
-                        description = `${icon.name} resource icon.`;
+                        description = `${displayName} resource icon.`;
                     } else {
-                        description = `${icon.name} is an AWS service.`;
+                        description = `${displayName} is an AWS service.`;
                     }
                 } else {
                     description = description.trim();
                 }
                 card.innerHTML = `
           <div class="icon-container${groupClass}${resourceClass}${serviceClass}" style="${iconBg}">
-            <img src="${icon.path}" alt="${icon.name}" class="icon-image" loading="lazy">
+            <img src="${icon.path}" alt="${displayName}" class="icon-image" loading="lazy">
             <div class="card-actions">
               <button class="action-btn copy-svg" aria-label="Copy SVG" title="Copy SVG">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -343,11 +348,11 @@
             </div>
           </div>
           <div class="icon-tooltip">
-            <div class="tooltip-title">${icon.name}</div>
+            <div class="tooltip-title">${displayName}</div>
             <div class="tooltip-description">${description}</div>
           </div>
           <div class="card-content">
-            <div class="name">${icon.name}</div>
+            <div class="name">${displayName}</div>
           </div>
         `;
 
