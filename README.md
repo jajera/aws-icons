@@ -17,13 +17,8 @@ A comprehensive web-based icon library for browsing and copying AWS Architecture
 
 ## Statistics
 
-- **873** total AWS icons
-  - **309** service icons (64x64)
-  - **524** resource icons (48x48)
-  - **25** category icons (64x64)
-  - **15** group icons (32x32)
-- **41** serverless services
-- **1,000+** unique tags for searchability
+- Icon count changes with AWS quarterly releases and local sync runs
+- Sync never deletes icons; candidates missing from the latest package are listed for review
 
 ## Usage
 
@@ -32,6 +27,28 @@ A comprehensive web-based icon library for browsing and copying AWS Architecture
 3. Click on tags to filter by category or service type
 4. Hover over icons to see descriptions
 5. Click the action buttons to copy SVG or download PNG
+
+## Automated Icon Sync
+
+Sync from the latest AWS Architecture Asset Package and rebuild `icons.json`:
+
+- Local run: `python3 scripts/sync_aws_icons.py --repo-root .`
+- CI run: `.github/workflows/sync-aws-icons.yml` (monthly schedule + manual dispatch)
+  - commits and pushes changes to `main` automatically
+  - then dispatches `pages.yml` so GitHub Pages updates (needed because `GITHUB_TOKEN` pushes do not cascade)
+
+### Sync behavior
+
+- **Add / update only** — existing icons are never deleted
+- **In-place updates** — if a filename already exists, it is overwritten at the current path
+- **Review list** — `icons-missing-from-latest.json` is overwritten each run with icons present in-repo but absent from the latest AWS package
+
+### Naming Rules (Deterministic)
+
+- `fullname` is generated from the AWS filename (`Arch_`/`Res_` prefix and size suffix removed)
+- common acronyms are normalized (`API`, `S3`, `SQS`, `SNS`, `VPC`, `IAM`, `EC2`, etc.)
+- `name` is a slug generated from `fullname`; collisions get a stable hash suffix
+- existing descriptions are preserved by default unless `--no-keep-descriptions` is used
 
 ## Icon Types
 

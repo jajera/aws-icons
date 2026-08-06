@@ -1,4 +1,4 @@
-# manual-trigger: 2026-07-30T08:44:57.933Z
+# manual-trigger: 2026-08-06T11:00:00.000Z
 version: 2
 updates:
   - package-ecosystem: "github-actions"
@@ -9,3 +9,7 @@ updates:
     commit-message:
       prefix: "chore"
       include: "scope"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
