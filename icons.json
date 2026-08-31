@@ -12160,6 +12160,20 @@
     "name": "cost-and-usage-report"
   },
   {
+    "path": "icons/service/financial/Arch_AWS-FinOps-Agent_64.svg",
+    "tags": [
+      "agent",
+      "aws",
+      "financial",
+      "finops"
+    ],
+    "category": "financial",
+    "color": "#7AA116",
+    "description": "Finops Agent service icon from the AWS Architecture Icons set.",
+    "fullname": "Finops Agent",
+    "name": "finops-agent"
+  },
+  {
     "path": "icons/service/financial/Arch_Reserved-Instance-Reporting_64.svg",
     "tags": [
       "aws",

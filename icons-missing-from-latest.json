@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-06T10:58:55Z",
-  "asset_package_url": "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/architecture/approved/architecture-icons/Icon-package_04302026.4705b90f5aa45b019271a2699e9ce9b97b941ee1.zip",
+  "generated_at": "2026-08-31T07:03:21Z",
+  "asset_package_url": "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip",
   "policy": "Icons missing from the latest AWS package are kept in-repo for review and are never deleted by sync. This file is overwritten each sync.",
-  "count": 27,
+  "count": 31,
   "paths": [
     "icons/category/business/Arch-Category_Contact-Center_64.svg",
     "icons/category/database/Arch-Category_Database_64.svg",
@@ -17,6 +17,9 @@
     "icons/resource/iot/Res_AWS-IoT-Analytics_Dataset_48.svg",
     "icons/resource/iot/Res_AWS-IoT-Analytics_Notebook_48.svg",
     "icons/resource/iot/Res_AWS-IoT-Analytics_Pipeline_48.svg",
+    "icons/resource/migration/Res_AWS-Migration-Hub_Refactor-Spaces-Applications_48.svg",
+    "icons/resource/migration/Res_AWS-Migration-Hub_Refactor-Spaces-Environments_48.svg",
+    "icons/resource/migration/Res_AWS-Migration-Hub_Refactor-Spaces-Services_48.svg",
     "icons/service/ai/Arch_AWS-DeepComposer_64.svg",
     "icons/service/ai/Arch_Amazon-Lookout-for-Metrics_64.svg",
     "icons/service/analytics/Arch_Amazon-QuickSight_64.svg",
@@ -30,6 +33,7 @@
     "icons/service/iot/Arch_AWS-IoT-Button_64.svg",
     "icons/service/media/Arch_AWS-Thinkbox-Sequoia_64.svg",
     "icons/service/media/Arch_Amazon-Elastic-Transcoder_64.svg",
+    "icons/service/migration/Arch_AWS-Migration-Hub_64.svg",
     "icons/service/networking/Arch_AWS-Private-5G_64.svg"
   ]
 }
